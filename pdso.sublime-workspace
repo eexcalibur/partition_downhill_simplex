@@ -1,0 +1,449 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"set",
+				"set_pool"
+			],
+			[
+				"in",
+				"input_str"
+			],
+			[
+				"pool",
+				"pool_nodes"
+			],
+			[
+				"jo",
+				"job_reg"
+			],
+			[
+				"ru",
+				"run_model_str"
+			],
+			[
+				"run",
+				"run-model"
+			],
+			[
+				"wor",
+				"work_id"
+			],
+			[
+				"job",
+				"job_scheduler"
+			],
+			[
+				"j",
+				"job_q"
+			],
+			[
+				"a",
+				"avail_res"
+			],
+			[
+				"p",
+				"pool_nodes"
+			],
+			[
+				"poo",
+				"pool_nodes"
+			],
+			[
+				"hs",
+				"hosts_dict"
+			],
+			[
+				"host",
+				"hosts_list"
+			],
+			[
+				"hos",
+				"hosts_list"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"lis",
+				"list2"
+			],
+			[
+				"be",
+				"begin"
+			],
+			[
+				"x",
+				"xk"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pdf",
+				"ToPdf"
+			],
+			[
+				"print",
+				"Print Entire File"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"latex",
+				"LaTeXTools: Toggle focus (PDF/editor)"
+			],
+			[
+				"lat",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git  add",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"la",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"un",
+				"Snippet: Underline text"
+			],
+			[
+				"mar",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"parem",
+				"Package Control: Remove Package"
+			],
+			[
+				"par",
+				"Package Control: Remove Package"
+			],
+			[
+				"githu",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"mark",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"git:add",
+				"Git: Add..."
+			],
+			[
+				"git:",
+				"Git: Status"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/download/capt/cam/capt/capt_runscripts/README",
+		"/D/nut/我的坚果云/Copernicus_LaTeX_Package/uq.bib",
+		"/C/Users/zhang/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/zhang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/C/Users/zhang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/README.markdown",
+		"/D/nut/我的坚果云/Copernicus_LaTeX_Package/template.tex",
+		"/C/Users/zhang/AppData/Roaming/Sublime Text 2/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/C/Users/zhang/AppData/Roaming/Sublime Text 2/Packages/LaTeXing/Default (Windows).sublime-keymap",
+		"/D/nut/我的坚果云/Copernicus_LaTeX_Package/template.pdf",
+		"/C/Users/zhang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build.OLD",
+		"/C/Users/zhang/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXing.sublime-settings",
+		"/D/nut/我的坚果云/Copernicus_LaTeX_Package/Morris.pdf",
+		"/Users/zhangtao/Documents/work/try/scheduler.py",
+		"/Users/zhangtao/Documents/work/try/test.py",
+		"/Users/zhangtao/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/zhangtao/Documents/work/try/pool.py",
+		"/Users/zhangtao/Documents/work/try/config.py",
+		"/Users/zhangtao/Documents/work/try/test_queue.py",
+		"/Users/zhangtao/我的坚果云/Copernicus_LaTeX_Package/template.tex",
+		"/Users/zhangtao/我的坚果云/Copernicus_LaTeX_Package/uq.bib",
+		"/Users/zhangtao/Documents/work/try/run-model.sh",
+		"/Users/zhangtao/Documents/work/try/queue.py",
+		"/Users/zhangtao/Documents/work/try/host_name",
+		"/Users/zhangtao/Documents/work/2014work/gmd/reg-0.909.eps",
+		"/Users/zhangtao/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/zhangtao/Downloads/list.cpp",
+		"/Users/zhangtao/我的坚果云/Copernicus_LaTeX_Package/zhangtao.bib",
+		"/Users/zhangtao/我的坚果云/Copernicus_LaTeX_Package/gmd14.sublime-project",
+		"/Users/zhangtao/Documents/work/2014work/gmd/Copernicus_LaTeX_Package/template.tex",
+		"/Users/zhangtao/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/Users/zhangtao/Downloads/latex.tex",
+		"/Users/zhangtao/Downloads/test.tex",
+		"/Users/zhangtao/Library/Application Support/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/zhangtao/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/README.markdown",
+		"/Users/zhangtao/Documents/nfs/movie/Untitled Document",
+		"/Volumes/zhangtao/data/TH_1A_testing_2014.5.5/bp2ncd.c",
+		"/Users/zhangtao/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/CF24E071-EE50-47B9-A608-0DD6F2DC43D9/skel_apps/s3d/s3d.xml",
+		"/Users/zhangtao/Downloads/licom_skel.c",
+		"/Users/zhangtao/Downloads/licom2.xml",
+		"/Users/zhangtao/Downloads/Makefile",
+		"/Users/zhangtao/Documents/work/sslvpn_jnlp.cgi.jnlp",
+		"/Users/zhangtao/Documents/work/代理模式/因子数据.DAT",
+		"/Users/zhangtao/Documents/hpc/TsingHpc/开题/开题notes",
+		"/Users/zhangtao/Documents/work/精度文章/precision",
+		"/Users/zhangtao/Dropbox/work/precision",
+		"/Users/zhangtao/Dropbox/work/1. Li J D, Duan Q Y, Gong W, et al. Assessing para",
+		"/Users/zhangtao/Dropbox/work/precision paper/reference/reference note",
+		"/Users/zhangtao/Dropbox/work/模式的模拟与预测和评估的检验方法更加突出定量化，强调“模式的评估标准”(metric), 要对多模式",
+		"/Users/zhangtao/Dropbox/work/气候系统模式参数不确定性的量化分析和优化",
+		"/Users/zhangtao/Dropbox/work/UQ/referance paper/referance node"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pdf",
+			"indi",
+			"water",
+			"complex",
+			"Sobol",
+			"Morris",
+			"document",
+			"pif",
+			"pi",
+			"nlocal",
+			"LN"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 145.0
+	},
+	"output.git":
+	{
+		"height": 142.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"面向气候系统模式科学研究的流程管理语言"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true
+}
