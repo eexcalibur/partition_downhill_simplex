@@ -13,7 +13,9 @@ if __name__ == '__main__':
 	pool_res = pool.Pool()
 	pool_res.set_pool()
 	part_factor = int(math.floor(pool_res.num_avail_res ** 0.5))
+	block_num = part_factor ** 2
 
+	
 	
 	
 

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"part_factor"
+			],
+			[
 				"set",
 				"set_pool"
 			],
@@ -83,13 +87,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "block.py",
+			"settings":
+			{
+				"buffer_size": 331,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pdso.py",
+			"settings":
+			{
+				"buffer_size": 438,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -143,19 +175,7 @@
 				"Git: Pull"
 			],
 			[
-				"push",
-				"Git: Push"
-			],
-			[
 				"com",
-				"Git: Commit"
-			],
-			[
-				"add",
-				"Git: Add..."
-			],
-			[
-				"comm",
 				"Git: Commit"
 			],
 			[
@@ -276,6 +296,7 @@
 	},
 	"file_history":
 	[
+		"/D/work/partition_downhill_simplex/LICENSE",
 		"/D/download/capt/cam/capt/capt_runscripts/README",
 		"/D/nut/我的坚果云/Copernicus_LaTeX_Package/uq.bib",
 		"/C/Users/zhang/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
@@ -371,8 +392,63 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "block.py",
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pdso.py",
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -409,7 +485,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 145.0
+		"height": 394.0
 	},
 	"output.git":
 	{
