@@ -2,7 +2,7 @@ import numpy
 import math
 import copy
 import block
-import Queue as Q
+import task_queue
 import uq_calibration.config as config
 import uq_calibration.pool as pool
 
@@ -22,8 +22,9 @@ def partition_range(q, range_data, num_avail_res, dix, diy):
 		for idy in range(0, ndy):
 			new_range[diy][0] = range_data[diy][0]+ idy * sdy
 			new_range[diy][1] = new_range[diy][0] + sdy
-			q.put(block.block(new_range))  
+			q.queue.append(block.block(new_range))  
 
+		
 
 
 if __name__ == '__main__':
@@ -35,10 +36,17 @@ if __name__ == '__main__':
 	pool_res.set_pool()
 
 	#push blocks into queue
-	q = Q.PriorityQueue()	
-	partition_range(q, init_range, pool_res.num_avail_res, 0, 1)
+	task_q = task_queue.task_queue()
+	partition_range(task_q, init_range, pool_res.num_avail_res, 0, 1)
 
-	
+	#while (len(task_q.queue) != 0):
+	task_q.start_tasks()
+
+
+
+
+		
+
 
 	
 	
