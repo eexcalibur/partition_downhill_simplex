@@ -1,4 +1,5 @@
 import copy
+import numpy
 
 class block(object):
 	"""docstring for Block"""
@@ -13,4 +14,4 @@ class block(object):
 #		return cmp(self.current_optimal, other.current_optimal)
 	
 	def run_block(self):
-		
+		numpy.savetxt("algorithm/subrange", self.subrange)

@@ -7,14 +7,16 @@ import uq_calibration.config as config
 import uq_calibration.pool as pool
 
 def partition_range(q, range_data, num_avail_res, dix, diy):
-	part_factor = int(math.floor(num_avail_res ** 0.5))
-	ndx = part_factor
-	while (ndx > 1 and num_avail_res % ndx != 0 ):
+	#part_factor = int(math.floor(num_avail_res ** 0.5))
+	part_factor = int(math.floor(config.blocks_num ** 0.5))
+	ndx = part_factor 
+	while (ndx > 1 and config.blocks_num % ndx != 0 ):
 		ndx = ndx - 1
-	ndy = num_avail_res / ndx
+	ndy = config.blocks_num / ndx
 	sdx = (range_data[dix][1] - range_data[dix][0]) / ndx
 	sdy = (range_data[diy][1] - range_data[diy][0]) / ndy
 
+	print ndx, ndy
 	new_range = copy.deepcopy(range_data)
 	for idx in range(0, ndx):
 		new_range[dix][0] = range_data[dix][0]+idx * sdx
@@ -38,6 +40,7 @@ if __name__ == '__main__':
 	#push blocks into queue
 	task_q = task_queue.task_queue()
 	partition_range(task_q, init_range, pool_res.num_avail_res, 0, 1)
+
 
 	#while (len(task_q.queue) != 0):
 	task_q.start_tasks()

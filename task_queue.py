@@ -14,6 +14,5 @@ class task_queue(object):
 
 	def start_tasks(self):
 		for b in self.queue:
-			print "<<<"
 			b.run_block()
 		
