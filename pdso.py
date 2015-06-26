@@ -26,7 +26,6 @@ def partition_range(q, range_data, num_avail_res, dix, diy):
 			new_range[diy][1] = new_range[diy][0] + sdy
 			q.queue.append(block.block(new_range))  
 
-		
 
 
 if __name__ == '__main__':
@@ -44,15 +43,4 @@ if __name__ == '__main__':
 
 	#while (len(task_q.queue) != 0):
 	task_q.start_tasks()
-
-
-
-
-		
-
-
-	
-	
-
-
 

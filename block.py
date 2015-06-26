@@ -1,5 +1,5 @@
 import copy
-import numpy
+import numpy, numpy.random
 
 class block(object):
 	"""docstring for Block"""
@@ -14,4 +14,18 @@ class block(object):
 #		return cmp(self.current_optimal, other.current_optimal)
 	
 	def run_block(self):
-		numpy.savetxt("algorithm/subrange", self.subrange)
+		paras_num = len(self.subrange)
+		paras_init = [[0] * (paras_num + 1)] * paras_num
+
+		for i in range(0, paras_num):
+			paras_init[i] = numpy.random.rand(paras_num + 1) * (self.subrange[i][1] - self.subrange[i][0]) + self.subrange[i][0] 
+
+		fp_subrange = file("algorithms/subrange", "wa")
+		numpy.savetxt(fp_subrange, [1], fmt="%d")
+		numpy.savetxt(fp_subrange, self.subrange)
+		numpy.savetxt(fp_subrange,  numpy.transpose(paras_init))
+
+
+
+
+		

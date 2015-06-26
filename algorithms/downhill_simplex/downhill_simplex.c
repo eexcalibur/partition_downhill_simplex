@@ -4,24 +4,24 @@
 #include <string.h>
 #include <math.h>
 
-int NDIM;
+int NDIM;                    //number of dimensions
 int NUM_SIM; 
-int UPDATE;
-int NMAX;
-FILE *FP_Log;
-char benchmark_path[200];
-char benchmark_case[40];
-char benchmark_res[40];
-double **RANGE_Paras;
-double **INIT_Paras;
-double *INIT_Metrics;
-double **Paras;
-double *Metrics;
-double *PARAS_Sum;
+int UPDATE;                  //update sigal
+int NMAX;                    //maximum of iterations
+FILE *FP_Log;                //log file pointer
+char benchmark_path[200];    //benchmark path
+char benchmark_case[40];     //benchmark executable file
+char benchmark_res[40];      //benchmark result file
+double **RANGE_Paras;        //paramers range matrix
+double **INIT_Paras;         //parameter initial matrix
+double *INIT_Metrics;        //initial results
+double **Paras;              //intime parameters matrix
+double *Metrics;             //intime metrics matrix
+double *PARAS_Sum;           //sum of parameters of each simplex
 
 void downhill_simplex();
-void init();
 void read_config();
+void read_init();
 void update_status();
 void get_paras_sum();
 double update_simplex(int, double);
@@ -32,9 +32,69 @@ void update_log(int, const char *);
 int
 main(int argn, char **argv)
 {
-    init();
+    read_config();
 	downhill_simplex();
 	return 0;
+}
+
+void
+read_config()
+{
+    int i, j;
+    FILE *fp_init;
+    time_t now;
+    struct tm *timenow;
+    char log_name[40];
+
+
+    if(!(fp_init = fopen("downhill_config", "r"))){
+        printf("downhill_config file does not exsit!\n");
+        exit(1);
+    }
+
+
+    //read max iterator
+    fscanf(fp_init, "%d", &NMAX);
+
+    //read parameters dimension
+    fscanf(fp_init, "%d", &NDIM);
+
+    //read benchmark configuration
+    fscanf(fp_init, "%s", &benchmark_path);
+    fscanf(fp_init, "%s", &benchmark_case);
+    fscanf(fp_init, "%s", &benchmark_res);
+    //printf("%s\n", benchmark_path);
+    //printf("%s\n", benchmark_case);
+    //printf("%s\n", benchmark_res);
+
+    //allocate parameters range and intinial values
+    RANGE_Paras  = (double **)malloc(NDIM * sizeof(double *));
+    INIT_Paras   = (double **)malloc((NDIM + 1) * sizeof(double *));
+    Paras        = (double **)malloc((NDIM + 1) * sizeof(double *));
+    INIT_Metrics = (double *)malloc((NDIM + 1) * sizeof(double));
+    Metrics      = (double *)malloc((NDIM + 1) * sizeof(double));
+    PARAS_Sum    = (double *)malloc(NDIM * sizeof(double));
+
+    for(i = 0; i < NDIM; i++){
+        RANGE_Paras[i] = (double *)malloc(2 * sizeof(double));
+    }
+    for(i = 0; i < NDIM + 1; i++){
+        INIT_Paras[i] = (double *)malloc((NDIM) * sizeof(double));
+        Paras[i]      = (double *)malloc((NDIM) * sizeof(double));
+    } 
+
+    fclose(fp_init);
+
+    //init log
+    time(&now);
+    timenow = localtime(&now);
+    sprintf(log_name, "simplex_log_%d.%d.%d-%d.%d.%d", timenow->tm_year+1900, \
+            timenow->tm_mon, timenow->tm_mday, timenow->tm_hour, timenow->tm_min,\
+            timenow->tm_sec);
+    FP_Log  = fopen(log_name, "aw");
+    fprintf(FP_Log,"iterator+action+parameters+metrics\n");
+
+    NUM_SIM = NDIM + 1;   
 }
 
 void 
@@ -57,7 +117,7 @@ downhill_simplex()
     while(iterator < NMAX)
 	{
         //read downhill configuration
-        read_config();
+        read_init();
 
         //open update
         if(UPDATE == 1){
@@ -128,68 +188,8 @@ downhill_simplex()
 	fclose(FP_Log);
 }
 
-void
-init()
-{
-    int i, j;
-    FILE *fp_init;
-    time_t now;
-    struct tm *timenow;
-    char log_name[40];
-
-
-    if(!(fp_init = fopen("downhill_config", "r"))){
-        printf("downhill_config file does not exsit!\n");
-        exit(1);
-    }
-
-
-    //read max iterator
-    fscanf(fp_init, "%d", &NMAX);
-
-    //read parameters dimension
-    fscanf(fp_init, "%d", &NDIM);
-
-    //read benchmark configuration
-    fscanf(fp_init, "%s", &benchmark_path);
-    fscanf(fp_init, "%s", &benchmark_case);
-    fscanf(fp_init, "%s", &benchmark_res);
-    //printf("%s\n", benchmark_path);
-    //printf("%s\n", benchmark_case);
-    //printf("%s\n", benchmark_res);
-
-    //allocate parameters range and intinial values
-    RANGE_Paras  = (double **)malloc(NDIM * sizeof(double *));
-    INIT_Paras   = (double **)malloc((NDIM + 1) * sizeof(double *));
-    Paras        = (double **)malloc((NDIM + 1) * sizeof(double *));
-    INIT_Metrics = (double *)malloc((NDIM + 1) * sizeof(double));
-    Metrics      = (double *)malloc((NDIM + 1) * sizeof(double));
-    PARAS_Sum    = (double *)malloc(NDIM * sizeof(double));
-
-    for(i = 0; i < NDIM; i++){
-        RANGE_Paras[i] = (double *)malloc(2 * sizeof(double));
-    }
-    for(i = 0; i < NDIM + 1; i++){
-        INIT_Paras[i] = (double *)malloc((NDIM) * sizeof(double));
-        Paras[i]      = (double *)malloc((NDIM) * sizeof(double));
-    } 
-
-    fclose(fp_init);
-
-    //init log
-    time(&now);
-    timenow = localtime(&now);
-    sprintf(log_name, "simplex_log_%d.%d.%d-%d.%d.%d", timenow->tm_year+1900, \
-            timenow->tm_mon, timenow->tm_mday, timenow->tm_hour, timenow->tm_min,\
-            timenow->tm_sec);
-    FP_Log  = fopen(log_name, "aw");
-    fprintf(FP_Log,"iterator+action+parameters+metrics\n");
-
-    NUM_SIM = NDIM + 1;   
-}
-
 void 
-read_config()
+read_init()
 {
     int i, j;
     FILE *fp_config;
@@ -248,7 +248,7 @@ update_status(){
     }
 
     //reset update of configure file is 0
-    system("sed -i '' '1s/1/0/g' downhill_config");
+    system("sed -i '' '1s/1/0/g' downhill_init");
     //system("sed  '1s/1/0/g' downhill_config");
 }
 
