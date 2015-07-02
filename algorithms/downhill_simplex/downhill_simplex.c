@@ -97,6 +97,7 @@ read_config()
     NUM_SIM = NDIM + 1;   
 }
 
+
 void 
 downhill_simplex()
 {	
@@ -194,7 +195,7 @@ read_init()
     int i, j;
     FILE *fp_config;
 
-    if(!(fp_config = fopen("downhill_init", "r"))){
+    if(!(fp_config = fopen("subrange", "r"))){
         printf("%s: downhill_config file does not exsit!\n", __func__);
         exit(1);
     }
@@ -212,17 +213,15 @@ read_init()
     }
     //printf("\n");
     for(i = 0; i < NDIM + 1; i++){
-        for(j = 0; j < NDIM + 1; j++){
-			if(j != NDIM){
+        for(j = 0; j < NDIM; j++){
             	fscanf(fp_config, "%lf", &INIT_Paras[i][j]);
             	//printf("%e ", INIT_Paras[i][j]);
-			}
-			else{
-				fscanf(fp_config, "%lf", &INIT_Metrics[i]);
-				//printf("%e ", INIT_Metrics[i]);
-			}
         }
         //printf("\n");
+    }
+
+    for(i = 0; i < NDIM + 1; i++){
+        INIT_Metrics[i] = get_metrics(INIT_Paras[i]);
     }
 
     fclose(fp_config);
@@ -248,7 +247,7 @@ update_status(){
     }
 
     //reset update of configure file is 0
-    system("sed -i '' '1s/1/0/g' downhill_init");
+    system("sed -i '' '1s/1/0/g' subrange");
     //system("sed  '1s/1/0/g' downhill_config");
 }
 

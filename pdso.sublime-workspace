@@ -87,22 +87,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "block.py",
-			"settings":
-			{
-				"buffer_size": 331,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pdso.py",
-			"settings":
-			{
-				"buffer_size": 438,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -392,63 +376,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "block.py",
-					"settings":
-					{
-						"buffer_size": 331,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								331,
-								331
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "pdso.py",
-					"settings":
-					{
-						"buffer_size": 438,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								404,
-								404
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -490,6 +419,10 @@
 	"output.git":
 	{
 		"height": 142.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
 	},
 	"replace":
 	{

@@ -1,5 +1,6 @@
 import copy
 import numpy, numpy.random
+import os
 
 class block(object):
 	"""docstring for Block"""
@@ -20,10 +21,16 @@ class block(object):
 		for i in range(0, paras_num):
 			paras_init[i] = numpy.random.rand(paras_num + 1) * (self.subrange[i][1] - self.subrange[i][0]) + self.subrange[i][0] 
 
-		fp_subrange = file("algorithms/subrange", "wa")
+		fp_subrange = file("algorithms/downhill_simplex/subrange", "wa")
 		numpy.savetxt(fp_subrange, [1], fmt="%d")
 		numpy.savetxt(fp_subrange, self.subrange)
 		numpy.savetxt(fp_subrange,  numpy.transpose(paras_init))
+
+		fp_subrange.close()
+
+		os.system("cd algorithms/downhill_simplex/; ./downhill_simplex")
+
+
 
 
 
