@@ -25,7 +25,6 @@ class block(object):
 		numpy.savetxt(fp_subrange, [1], fmt="%d")
 		numpy.savetxt(fp_subrange, self.subrange)
 		numpy.savetxt(fp_subrange,  numpy.transpose(paras_init))
-
 		fp_subrange.close()
 
 		os.system("cd algorithms/downhill_simplex/; ./downhill_simplex")

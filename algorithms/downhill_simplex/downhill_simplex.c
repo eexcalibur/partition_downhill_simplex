@@ -4,10 +4,13 @@
 #include <string.h>
 #include <math.h>
 
+
 int NDIM;                    //number of dimensions
 int NUM_SIM; 
 int UPDATE;                  //update sigal
 int NMAX;                    //maximum of iterations
+int iterator;                //iterator number
+double tolhist;              //tol for stop
 FILE *FP_Log;                //log file pointer
 char benchmark_path[200];    //benchmark path
 char benchmark_case[40];     //benchmark executable file
@@ -18,6 +21,7 @@ double *INIT_Metrics;        //initial results
 double **Paras;              //intime parameters matrix
 double *Metrics;             //intime metrics matrix
 double *PARAS_Sum;           //sum of parameters of each simplex
+double *HistMereics;         //metrics history
 
 void downhill_simplex();
 void read_config();
@@ -28,12 +32,18 @@ double update_simplex(int, double);
 void check_paras_band(double *);
 double get_metrics(double *);
 void update_log(int, const char *);
+int testfortermination();
+
 
 int
 main(int argn, char **argv)
 {
+    int i;
     read_config();
 	downhill_simplex();
+
+    testfortermination();
+
 	return 0;
 }
 
@@ -59,6 +69,9 @@ read_config()
     //read parameters dimension
     fscanf(fp_init, "%d", &NDIM);
 
+    //read tolhist
+    fscanf(fp_init, "%lf", &tolhist);
+
     //read benchmark configuration
     fscanf(fp_init, "%s", &benchmark_path);
     fscanf(fp_init, "%s", &benchmark_case);
@@ -74,6 +87,7 @@ read_config()
     INIT_Metrics = (double *)malloc((NDIM + 1) * sizeof(double));
     Metrics      = (double *)malloc((NDIM + 1) * sizeof(double));
     PARAS_Sum    = (double *)malloc(NDIM * sizeof(double));
+    HistMereics  = (double *)malloc(NMAX * sizeof(double));
 
     for(i = 0; i < NDIM; i++){
         RANGE_Paras[i] = (double *)malloc(2 * sizeof(double));
@@ -101,10 +115,9 @@ read_config()
 void 
 downhill_simplex()
 {	
-	int iterator;
     double rel_met;
     double ihi_save;
-    int i, ihi, ilo, inhi, j, nfunk;
+    int i, ihi, ilo, inhi, j, nfunk, min_all_shrunk;
 
 
     //read_config();
@@ -115,7 +128,7 @@ downhill_simplex()
 
 	//begin iterate
 	iterator = 0;
-    while(iterator < NMAX)
+    while(testfortermination())
 	{
         //read downhill configuration
         read_init();
@@ -150,11 +163,12 @@ downhill_simplex()
 
         //reflect the worst simplex, -1.0 = reflect
         rel_met = update_simplex(ihi, -1.0);
-        iterator++;
+        //iterator++;
 
         //expand the reflect point
         if(rel_met <= Metrics[ilo]){
             rel_met = update_simplex(ihi, 2.0);
+            HistMereics[iterator] = rel_met;
             iterator++;
             update_log(iterator, "expand");
         }
@@ -162,11 +176,10 @@ downhill_simplex()
         else if(rel_met >= Metrics[inhi]){
             ihi_save = Metrics[ihi];
             rel_met = update_simplex(ihi, 0.5);
-            iterator++;
-            update_log(iterator, "shrink");
 
             //Can’t seem to get rid of that high point. Better contract around the best point.    
             if(rel_met >= ihi_save){
+                min_all_shrunk = (unsigned)(-1) >> 1; //INT MAX
                 for(i = 0; i < NDIM + 1; i++){
                     if(i != ilo){
                         for(j = 0; j < NDIM; j++){
@@ -174,14 +187,26 @@ downhill_simplex()
                         }
                         check_paras_band(Paras[i]);
                         Metrics[i] = get_metrics(Paras[i]);
-                        iterator++;
-                        update_log(iterator, "all_shrink");
-                    }
+                        if(Metrics[i] < min_all_shrunk){
+                            min_all_shrunk = Metrics[i];
+                        }
+                   }
                 }
+                HistMereics[iterator] = min_all_shrunk;
+                iterator++;
+                update_log(iterator, "all_shrink");
+                continue;
             }
+
+            HistMereics[iterator] = rel_met;
+            iterator++;
+            update_log(iterator, "shrink");
+
         }
         //else keep the reflect point
         else{
+            HistMereics[iterator] = rel_met;
+            iterator++;
             update_log(iterator, "keep");
         }
     }
@@ -354,4 +379,33 @@ update_log(int iterator, const char * action)
             }
         }
     }
+}
+
+int
+testfortermination()
+{
+    int i;
+    int last_iterator;
+    double last_max, last_min, tol_range;
+
+    last_iterator = 10 + ceil(30. * NDIM / (NDIM + 1));
+
+    if(iterator < NMAX && iterator > last_iterator){
+        last_min = last_max = HistMereics[iterator - 1];
+        for(i = iterator - 1; i >= (iterator - last_iterator - 1); i--){
+            if(HistMereics[i] < last_min)
+                last_min = HistMereics[i];
+            if(HistMereics[i] > last_max)
+                last_max = HistMereics[i];
+        }
+        tol_range = last_max - last_min;
+        if(tol_range < tolhist)
+            return 0; 
+    }
+
+    if(iterator > NMAX)
+        return 0;
+
+    return 1;
 } 
+
