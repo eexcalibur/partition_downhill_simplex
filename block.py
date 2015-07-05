@@ -1,6 +1,6 @@
 import copy
 import numpy, numpy.random
-import os
+import os,sys
 
 class block(object):
 	"""docstring for Block"""
@@ -28,6 +28,14 @@ class block(object):
 		fp_subrange.close()
 
 		os.system("cd algorithms/downhill_simplex/; ./downhill_simplex")
+		final_res = numpy.loadtxt("algorithms/downhill_simplex/final_res")
+
+		self.iteration_nums = final_res[0]
+		self.final_optimal  = final_res[1]
+		
+
+
+
 
 
 

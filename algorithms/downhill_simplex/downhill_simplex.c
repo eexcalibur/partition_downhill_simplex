@@ -33,6 +33,7 @@ void check_paras_band(double *);
 double get_metrics(double *);
 void update_log(int, const char *);
 int testfortermination();
+void save_res();
 
 
 int
@@ -41,9 +42,6 @@ main(int argn, char **argv)
     int i;
     read_config();
 	downhill_simplex();
-
-    testfortermination();
-
 	return 0;
 }
 
@@ -100,13 +98,17 @@ read_config()
     fclose(fp_init);
 
     //init log
+#ifdef LOGFILE
     time(&now);
     timenow = localtime(&now);
     sprintf(log_name, "simplex_log_%d.%d.%d-%d.%d.%d", timenow->tm_year+1900, \
             timenow->tm_mon, timenow->tm_mday, timenow->tm_hour, timenow->tm_min,\
             timenow->tm_sec);
     FP_Log  = fopen(log_name, "aw");
+
+
     fprintf(FP_Log,"iterator+action+parameters+metrics\n");
+#endif
 
     NUM_SIM = NDIM + 1;   
 }
@@ -211,7 +213,11 @@ downhill_simplex()
         }
     }
 	
+#ifdef LOGFILE
 	fclose(FP_Log);
+#endif
+    
+    save_res();
 }
 
 void 
@@ -367,6 +373,7 @@ get_metrics(double * paras_array)
 void
 update_log(int iterator, const char * action)
 {
+#ifdef LOGFILE
     int i, j;
     fprintf(FP_Log, "%d \t %s\n", iterator, action);
     for(i = 0; i < NDIM + 1; i++){
@@ -379,17 +386,19 @@ update_log(int iterator, const char * action)
             }
         }
     }
+#endif
 }
 
 int
 testfortermination()
 {
-    int i;
+    int i, n;
     int last_iterator;
     double last_max, last_min, tol_range;
 
     last_iterator = 10 + ceil(30. * NDIM / (NDIM + 1));
 
+    //the last last_iterator is lower than tolhist
     if(iterator < NMAX && iterator > last_iterator){
         last_min = last_max = HistMereics[iterator - 1];
         for(i = iterator - 1; i >= (iterator - last_iterator - 1); i--){
@@ -403,9 +412,31 @@ testfortermination()
             return 0; 
     }
 
+    //iterator is greater than NMAX
     if(iterator > NMAX)
         return 0;
 
-    return 1;
+    //all of the simplex are equal
+    n = 0;
+    for(i = 0; i < NDIM; i++){
+        if(Metrics[i] == Metrics[i+1])
+            n++;
+    }
+    if(n == NDIM)
+        return 0;
+    else
+        return 1;
 } 
 
+void save_res()
+{
+    int i, j;
+    FILE *fp_finial_res;
+    
+    fp_finial_res = fopen("final_res", "w");
+    /*for(i = 0; i < NDIM; i++){
+        fprintf(fp_finial_res, "%e ", Paras[0][i]);
+    }*/
+    fprintf(fp_finial_res, "%d\n", iterator);
+    fprintf(fp_finial_res, "%e\n", Metrics[0]);
+}

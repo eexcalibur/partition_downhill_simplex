@@ -1,10 +1,26 @@
 import numpy
 import math
 import copy
+import logging
 import block
 import task_queue
 import uq_calibration.config as config
 import uq_calibration.pool as pool
+
+def init_logging():
+	logging.basicConfig(level=logging.INFO,
+                format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+                datefmt='%a, %d %b %Y %H:%M:%S',
+                filename='pdso.log',
+                filemode='w')
+
+	console = logging.StreamHandler()
+	console.setLevel(logging.INFO)
+	formatter = logging.Formatter('%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+								  '%a, %d %b %Y %H:%M:%S')
+	console.setFormatter(formatter)
+	logging.getLogger('').addHandler(console)
+
 
 def partition_range(q, range_data, num_avail_res, dix, diy):
 	#part_factor = int(math.floor(num_avail_res ** 0.5))
@@ -29,6 +45,10 @@ def partition_range(q, range_data, num_avail_res, dix, diy):
 
 
 if __name__ == '__main__':
+
+	#init log
+	init_logging()
+
 	#read the init range
 	init_range = numpy.loadtxt("range_init")
 
@@ -43,4 +63,5 @@ if __name__ == '__main__':
 
 	#while (len(task_q.queue) != 0):
 	task_q.start_tasks()
+	task_q.write_hist()
 
