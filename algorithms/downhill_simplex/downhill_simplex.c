@@ -121,12 +121,9 @@ downhill_simplex()
     double ihi_save;
     int i, ihi, ilo, inhi, j, nfunk, min_all_shrunk;
 
-
-    //read_config();
-
-    //if(UPDATE == 1){
-    //    update_status();
-    //}
+    //init paras and metrics
+    read_config();
+    update_status();
 
 	//begin iterate
 	iterator = 0;
@@ -216,7 +213,7 @@ downhill_simplex()
 #ifdef LOGFILE
 	fclose(FP_Log);
 #endif
-    
+
     save_res();
 }
 
