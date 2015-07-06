@@ -5,7 +5,7 @@ import logging
 import block
 import task_queue
 import uq_calibration.config as config
-import uq_calibration.pool as pool
+
 
 def init_logging():
 	logging.basicConfig(level=logging.INFO,
@@ -22,7 +22,7 @@ def init_logging():
 	logging.getLogger('').addHandler(console)
 
 
-def partition_range(q, range_data, num_avail_res, dix, diy):
+def partition_range(q, range_data, dix, diy):
 	#part_factor = int(math.floor(num_avail_res ** 0.5))
 	part_factor = int(math.floor(config.blocks_num ** 0.5))
 	ndx = part_factor 
@@ -52,13 +52,9 @@ if __name__ == '__main__':
 	#read the init range
 	init_range = numpy.loadtxt("range_init")
 
-	#partition the init range
-	pool_res = pool.Pool()
-	pool_res.set_pool()
-
 	#push blocks into queue
 	task_q = task_queue.task_queue()
-	partition_range(task_q, init_range, pool_res.num_avail_res, 0, 1)
+	partition_range(task_q, init_range, 0, 1)
 
 
 	#while (len(task_q.queue) != 0):
