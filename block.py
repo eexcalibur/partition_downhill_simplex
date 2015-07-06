@@ -15,7 +15,7 @@ class block(object):
 #	def __cmp__(self, other):
 #		return cmp(self.current_optimal, other.current_optimal)
 	
-	def run_block(self, work_id, used_res):
+	def run_block(self, job_scheduler, work_id, used_res):
 		#write initial range for each block
 		paras_num = len(self.subrange)
 		paras_init = [[0] * (paras_num + 1)] * paras_num
@@ -40,28 +40,21 @@ class block(object):
 		run_model_str += " &"
 
 		os.system(run_model_str)
-		self.job_reg[work_id] = used_res
-
-		#run model
-		#os.system("cd algorithms/downhill_simplex/; ./downhill_simplex")
-
-		#read resualt
-		final_res = numpy.loadtxt("algorithms/downhill_simplex/final_res")
-		self.iteration_nums = final_res[0]
-		self.final_optimal  = final_res[1]
-		
+		job_scheduler.job_reg[work_id] = used_res
 
 
-	def run_model(self, work_id, used_res):
+	def check_run_model(self, job_scheduler, pool_nodes):
+		for k, v in job_scheduler.job_reg.items():
+			cmd_status="ps -ef |grep CSM_work%d| grep -v grep" % k
+			run_status=os.popen(cmd_status).readlines()
+			if (len(run_status) == 0):
+				#read result
+				final_res = numpy.loadtxt("algorithms/downhill_simplex/final_res")
+				self.iteration_nums = final_res[0]
+				self.final_optimal  = final_res[1]				
+				# release nodes
+				pool_nodes.reset_cores(v)
+				# delete job_reg
+				del job_scheduler.job_reg[k]
+				pool_nodes.ass_jobs_num = pool_nodes.ass_jobs_num - 1
 
-
-
-
-
-
-
-
-
-
-
-		
