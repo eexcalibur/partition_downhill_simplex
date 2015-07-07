@@ -23,20 +23,21 @@ class block(object):
 		for i in range(0, paras_num):
 			paras_init[i] = numpy.random.rand(paras_num + 1) * (self.subrange[i][1] - self.subrange[i][0]) + self.subrange[i][0] 
 
-		fp_subrange = file("subrange", "wa")
+		fp_subrange = file("templete/subrange", "wa")
 		numpy.savetxt(fp_subrange, [1], fmt="%d")
 		numpy.savetxt(fp_subrange, self.subrange)
 		numpy.savetxt(fp_subrange,  numpy.transpose(paras_init))
 		fp_subrange.close()
 
 		#create mpd.hosts
-		fp_host = open("mpd.hosts"+str(work_id), "w")
+		fp_host = open("templete/mpd.hosts"+str(work_id), "w")
 		for k, v in used_res.items():
 			fp_host.write(k + ":"+ str(v) +"\n")
 		fp_host.close()
 
+		#run model
 		logging.info("work"+str(work_id)+" running on "+str(used_res.keys()))
-		run_model_str="./run-model.sh CSM_work"+str(work_id)+" "+str(work_id)
+		run_model_str="./uq_calibration/run-model-window.sh CSM_work"+str(work_id)+" "+str(work_id)
 		run_model_str += " &"
 
 		os.system(run_model_str)
