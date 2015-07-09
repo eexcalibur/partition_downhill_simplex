@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 	isInitDone = 0;
 	trialid = 3;
 
-	out = fopen("/Users/zhangtao/storage/Tsinghua_work/UQ/algorithms/partition_downhill_simplex/problems/bbob/res_data", "w");
+	out = fopen("res_data", "w");
 
 	DIM = argc - 1;
 	double *X = (double*)malloc(DIM*sizeof(double));
