@@ -54,7 +54,7 @@ if __name__ == '__main__':
 
 	#push blocks into queue
 	task_q = task_queue.task_queue()
-	partition_range(task_q, init_range, 0, 1)
+	partition_range(task_q, init_range, 1,2)
 
 
 	#while (len(task_q.queue) != 0):

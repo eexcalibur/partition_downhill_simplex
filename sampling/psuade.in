@@ -1,0 +1,25 @@
+PSUADE
+INPUT
+   dimension = 1
+   #variable   1 c0   = 1.0e-4 5.4e-3
+   #variable   1 cmftau = 900 14400
+   #variable   1 rhminh = 0.6 0.9
+   #variable   1 rhminl = 0.8 0.95
+   variable   1 ai = 300 1100
+END
+OUTPUT
+   dimension = 1
+   variable 1 Y1
+END
+METHOD
+   sampling = FACT
+   num_samples = 16
+END
+APPLICATION
+   #gen_inputfile_only
+   driver = ./gen_psD_samples
+END
+ANALYSIS
+   analyzer output_id  = 1
+END
+END

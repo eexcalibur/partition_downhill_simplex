@@ -1,41 +1,1001 @@
-Thu, 09 Jul 2015 01:27:47  [INFO] Begin the 0 block
-Thu, 09 Jul 2015 01:27:47  [INFO] Begin the 1 block
-Thu, 09 Jul 2015 01:27:47  [INFO] Begin the 2 block
-Thu, 09 Jul 2015 01:27:47  [INFO] Begin the 3 block
-Thu, 09 Jul 2015 01:27:47  [INFO] Begin the 4 block
-Thu, 09 Jul 2015 01:27:47  [INFO] Begin the 5 block
-Thu, 09 Jul 2015 01:27:48  [INFO] Begin the 6 block
-Thu, 09 Jul 2015 01:27:48  [INFO] Begin the 7 block
-Thu, 09 Jul 2015 01:27:48  [INFO] Begin the 8 block
-Thu, 09 Jul 2015 01:27:48  [INFO] Begin the 9 block
-Thu, 09 Jul 2015 01:29:26  [INFO] Finish the 9 block. Best optimal: 4.929522e+01 with 54 iterations
-Thu, 09 Jul 2015 01:29:26  [INFO] Begin the 10 block
-Thu, 09 Jul 2015 01:29:59  [INFO] Finish the 5 block. Best optimal: 5.085537e+01 with 106 iterations
-Thu, 09 Jul 2015 01:30:02  [INFO] Begin the 11 block
-Thu, 09 Jul 2015 01:30:39  [INFO] Finish the 3 block. Best optimal: 5.033922e+01 with 139 iterations
-Thu, 09 Jul 2015 01:30:42  [INFO] Begin the 12 block
-Thu, 09 Jul 2015 01:31:25  [INFO] Finish the 4 block. Best optimal: 5.635237e+01 with 183 iterations
-Thu, 09 Jul 2015 01:31:26  [INFO] Finish the 7 block. Best optimal: 4.878657e+01 with 172 iterations
-Thu, 09 Jul 2015 01:31:28  [INFO] Begin the 13 block
-Thu, 09 Jul 2015 01:31:28  [INFO] Begin the 14 block
-Thu, 09 Jul 2015 01:32:02  [INFO] Finish the 11 block. Best optimal: 5.994097e+01 with 70 iterations
-Thu, 09 Jul 2015 01:32:04  [INFO] Begin the 15 block
-Thu, 09 Jul 2015 01:34:10  [INFO] Finish the 12 block. Best optimal: 3.732174e+01 with 174 iterations
-Thu, 09 Jul 2015 01:34:12  [INFO] Begin the 16 block
-Thu, 09 Jul 2015 01:35:02  [INFO] Finish the 15 block. Best optimal: 5.976393e+01 with 147 iterations
-Thu, 09 Jul 2015 01:35:03  [INFO] Begin the 17 block
-Thu, 09 Jul 2015 01:36:32  [INFO] Finish the 8 block. Best optimal: 6.296451e+01 with 401 iterations
-Thu, 09 Jul 2015 01:36:35  [INFO] Begin the 18 block
-Thu, 09 Jul 2015 01:37:18  [INFO] Finish the 6 block. Best optimal: 8.083678e+01 with 401 iterations
-Thu, 09 Jul 2015 01:37:21  [INFO] Begin the 19 block
-Thu, 09 Jul 2015 01:37:32  [INFO] Finish the 2 block. Best optimal: 6.694432e+01 with 401 iterations
-Thu, 09 Jul 2015 01:37:33  [INFO] Finish the 10 block. Best optimal: 4.766421e+01 with 401 iterations
-Thu, 09 Jul 2015 01:38:11  [INFO] Finish the 14 block. Best optimal: 2.422468e+01 with 338 iterations
-Thu, 09 Jul 2015 01:38:14  [INFO] Finish the 0 block. Best optimal: 3.444721e+01 with 401 iterations
-Thu, 09 Jul 2015 01:38:49  [INFO] Finish the 19 block. Best optimal: 4.527261e+01 with 54 iterations
-Thu, 09 Jul 2015 01:39:02  [INFO] Finish the 13 block. Best optimal: 3.052341e+01 with 401 iterations
-Thu, 09 Jul 2015 01:39:12  [INFO] Finish the 16 block. Best optimal: 4.932527e+01 with 256 iterations
-Thu, 09 Jul 2015 01:42:47  [INFO] Finish the 18 block. Best optimal: 3.014236e+01 with 381 iterations
-Thu, 09 Jul 2015 01:43:10  [INFO] Finish the 1 block. Best optimal: 3.739002e+01 with 401 iterations
-Thu, 09 Jul 2015 01:43:11  [INFO] Finish the 17 block. Best optimal: 6.936715e+01 with 401 iterations
-Thu, 09 Jul 2015 01:43:11  [INFO] All blocks have Finished!!!!!!!
+Fri, 10 Jul 2015 01:02:30  [INFO] Begin the 0 block
+Fri, 10 Jul 2015 01:02:30  [INFO] Begin the 1 block
+Fri, 10 Jul 2015 01:02:30  [INFO] Begin the 2 block
+Fri, 10 Jul 2015 01:02:30  [INFO] Begin the 3 block
+Fri, 10 Jul 2015 01:02:30  [INFO] Begin the 4 block
+Fri, 10 Jul 2015 01:02:31  [INFO] Begin the 5 block
+Fri, 10 Jul 2015 01:02:31  [INFO] Begin the 6 block
+Fri, 10 Jul 2015 01:02:31  [INFO] Begin the 7 block
+Fri, 10 Jul 2015 01:03:24  [INFO] Finish the 0 block. Best optimal: 2.344507e+01 with 28 iterations
+Fri, 10 Jul 2015 01:03:27  [INFO] Begin the 8 block
+Fri, 10 Jul 2015 01:03:36  [INFO] Finish the 2 block. Best optimal: 4.119788e+01 with 35 iterations
+Fri, 10 Jul 2015 01:03:38  [INFO] Finish the 7 block. Best optimal: 3.610614e+01 with 40 iterations
+Fri, 10 Jul 2015 01:03:39  [INFO] Begin the 9 block
+Fri, 10 Jul 2015 01:03:39  [INFO] Begin the 10 block
+Fri, 10 Jul 2015 01:04:02  [INFO] Finish the 3 block. Best optimal: 4.569354e+01 with 78 iterations
+Fri, 10 Jul 2015 01:04:03  [INFO] Finish the 6 block. Best optimal: 4.779244e+01 with 80 iterations
+Fri, 10 Jul 2015 01:04:04  [INFO] Begin the 11 block
+Fri, 10 Jul 2015 01:04:05  [INFO] Begin the 12 block
+Fri, 10 Jul 2015 01:04:24  [INFO] Finish the 5 block. Best optimal: 6.174096e+01 with 100 iterations
+Fri, 10 Jul 2015 01:04:26  [INFO] Begin the 13 block
+Fri, 10 Jul 2015 01:05:05  [INFO] Finish the 10 block. Best optimal: 4.153637e+01 with 76 iterations
+Fri, 10 Jul 2015 01:05:06  [INFO] Begin the 14 block
+Fri, 10 Jul 2015 01:05:11  [INFO] Finish the 8 block. Best optimal: 4.871567e+01 with 93 iterations
+Fri, 10 Jul 2015 01:05:13  [INFO] Begin the 15 block
+Fri, 10 Jul 2015 01:05:25  [INFO] Finish the 9 block. Best optimal: 5.319107e+01 with 98 iterations
+Fri, 10 Jul 2015 01:05:25  [INFO] Finish the 11 block. Best optimal: 5.346861e+01 with 74 iterations
+Fri, 10 Jul 2015 01:05:27  [INFO] Begin the 16 block
+Fri, 10 Jul 2015 01:05:27  [INFO] Begin the 17 block
+Fri, 10 Jul 2015 01:05:36  [INFO] Finish the 12 block. Best optimal: 5.320621e+01 with 60 iterations
+Fri, 10 Jul 2015 01:05:38  [INFO] Begin the 18 block
+Fri, 10 Jul 2015 01:07:09  [INFO] Finish the 18 block. Best optimal: 4.637810e+01 with 66 iterations
+Fri, 10 Jul 2015 01:07:09  [INFO] Begin the 19 block
+Fri, 10 Jul 2015 01:07:28  [INFO] Finish the 13 block. Best optimal: 4.548304e+01 with 172 iterations
+Fri, 10 Jul 2015 01:07:31  [INFO] Begin the 20 block
+Fri, 10 Jul 2015 01:08:01  [INFO] Finish the 14 block. Best optimal: 7.194741e+01 with 149 iterations
+Fri, 10 Jul 2015 01:08:03  [INFO] Begin the 21 block
+Fri, 10 Jul 2015 01:09:11  [INFO] Finish the 17 block. Best optimal: 4.840076e+01 with 197 iterations
+Fri, 10 Jul 2015 01:09:12  [INFO] Begin the 22 block
+Fri, 10 Jul 2015 01:10:20  [INFO] Finish the 19 block. Best optimal: 5.665078e+01 with 177 iterations
+Fri, 10 Jul 2015 01:10:21  [INFO] Begin the 23 block
+Fri, 10 Jul 2015 01:11:52  [INFO] Finish the 22 block. Best optimal: 6.478618e+01 with 149 iterations
+Fri, 10 Jul 2015 01:11:52  [INFO] Begin the 24 block
+Fri, 10 Jul 2015 01:11:53  [INFO] Finish the 4 block. Best optimal: 3.693961e+01 with 401 iterations
+Fri, 10 Jul 2015 01:11:56  [INFO] Begin the 25 block
+Fri, 10 Jul 2015 01:13:10  [INFO] Finish the 21 block. Best optimal: 6.199963e+01 with 286 iterations
+Fri, 10 Jul 2015 01:13:11  [INFO] Begin the 26 block
+Fri, 10 Jul 2015 01:13:29  [INFO] Finish the 25 block. Best optimal: 4.168197e+01 with 85 iterations
+Fri, 10 Jul 2015 01:13:30  [INFO] Begin the 27 block
+Fri, 10 Jul 2015 01:14:23  [INFO] Finish the 27 block. Best optimal: 3.313886e+01 with 31 iterations
+Fri, 10 Jul 2015 01:14:23  [INFO] Begin the 28 block
+Fri, 10 Jul 2015 01:14:46  [INFO] Finish the 16 block. Best optimal: 1.098513e+02 with 401 iterations
+Fri, 10 Jul 2015 01:14:48  [INFO] Begin the 29 block
+Fri, 10 Jul 2015 01:14:55  [INFO] Finish the 26 block. Best optimal: 4.088593e+01 with 68 iterations
+Fri, 10 Jul 2015 01:14:56  [INFO] Begin the 30 block
+Fri, 10 Jul 2015 01:15:00  [INFO] Finish the 1 block. Best optimal: 4.093314e+01 with 84 iterations
+Fri, 10 Jul 2015 01:15:00  [INFO] Finish the 15 block. Best optimal: 4.221763e+01 with 401 iterations
+Fri, 10 Jul 2015 01:15:03  [INFO] Begin the 31 block
+Fri, 10 Jul 2015 01:15:03  [INFO] Begin the 32 block
+Fri, 10 Jul 2015 01:15:28  [INFO] Finish the 28 block. Best optimal: 4.113779e+01 with 37 iterations
+Fri, 10 Jul 2015 01:15:30  [INFO] Begin the 33 block
+Fri, 10 Jul 2015 01:16:13  [INFO] Finish the 29 block. Best optimal: 3.167701e+01 with 50 iterations
+Fri, 10 Jul 2015 01:16:15  [INFO] Begin the 34 block
+Fri, 10 Jul 2015 01:16:21  [INFO] Finish the 31 block. Best optimal: 4.948746e+01 with 48 iterations
+Fri, 10 Jul 2015 01:16:22  [INFO] Begin the 35 block
+Fri, 10 Jul 2015 01:16:45  [INFO] Finish the 20 block. Best optimal: 7.870105e+01 with 401 iterations
+Fri, 10 Jul 2015 01:16:48  [INFO] Begin the 36 block
+Fri, 10 Jul 2015 01:16:54  [INFO] Finish the 32 block. Best optimal: 4.056345e+01 with 97 iterations
+Fri, 10 Jul 2015 01:16:56  [INFO] Begin the 37 block
+Fri, 10 Jul 2015 01:17:31  [INFO] Finish the 24 block. Best optimal: 6.621116e+01 with 318 iterations
+Fri, 10 Jul 2015 01:17:34  [INFO] Begin the 38 block
+Fri, 10 Jul 2015 01:18:21  [INFO] Finish the 34 block. Best optimal: 4.081197e+01 with 113 iterations
+Fri, 10 Jul 2015 01:18:23  [INFO] Begin the 39 block
+Fri, 10 Jul 2015 01:18:36  [INFO] Finish the 35 block. Best optimal: 5.042368e+01 with 119 iterations
+Fri, 10 Jul 2015 01:18:38  [INFO] Begin the 40 block
+Fri, 10 Jul 2015 01:18:47  [INFO] Finish the 33 block. Best optimal: 4.209698e+01 with 167 iterations
+Fri, 10 Jul 2015 01:18:50  [INFO] Begin the 41 block
+Fri, 10 Jul 2015 01:19:50  [INFO] Finish the 39 block. Best optimal: 5.833769e+01 with 56 iterations
+Fri, 10 Jul 2015 01:19:51  [INFO] Begin the 42 block
+Fri, 10 Jul 2015 01:20:36  [INFO] Finish the 23 block. Best optimal: 1.090726e+02 with 401 iterations
+Fri, 10 Jul 2015 01:20:40  [INFO] Begin the 43 block
+Fri, 10 Jul 2015 01:21:12  [INFO] Finish the 38 block. Best optimal: 5.323878e+01 with 197 iterations
+Fri, 10 Jul 2015 01:21:14  [INFO] Begin the 44 block
+Fri, 10 Jul 2015 01:23:15  [INFO] Finish the 43 block. Best optimal: 5.509625e+01 with 132 iterations
+Fri, 10 Jul 2015 01:23:16  [INFO] Begin the 45 block
+Fri, 10 Jul 2015 01:24:01  [INFO] Finish the 44 block. Best optimal: 5.430043e+01 with 148 iterations
+Fri, 10 Jul 2015 01:24:02  [INFO] Begin the 46 block
+Fri, 10 Jul 2015 01:24:30  [INFO] Finish the 40 block. Best optimal: 4.966610e+01 with 317 iterations
+Fri, 10 Jul 2015 01:24:31  [INFO] Finish the 45 block. Best optimal: 4.916282e+01 with 44 iterations
+Fri, 10 Jul 2015 01:24:32  [INFO] Begin the 47 block
+Fri, 10 Jul 2015 01:24:32  [INFO] Begin the 48 block
+Fri, 10 Jul 2015 01:25:09  [INFO] Finish the 30 block. Best optimal: 5.334429e+01 with 401 iterations
+Fri, 10 Jul 2015 01:25:13  [INFO] Begin the 49 block
+Fri, 10 Jul 2015 01:25:29  [INFO] Finish the 42 block. Best optimal: 4.875649e+01 with 306 iterations
+Fri, 10 Jul 2015 01:25:31  [INFO] Begin the 50 block
+Fri, 10 Jul 2015 01:26:31  [INFO] Finish the 49 block. Best optimal: 6.618846e+01 with 46 iterations
+Fri, 10 Jul 2015 01:26:32  [INFO] Begin the 51 block
+Fri, 10 Jul 2015 01:26:43  [INFO] Finish the 48 block. Best optimal: 5.709647e+01 with 112 iterations
+Fri, 10 Jul 2015 01:26:44  [INFO] Begin the 52 block
+Fri, 10 Jul 2015 01:27:08  [INFO] Finish the 46 block. Best optimal: 6.579159e+01 with 170 iterations
+Fri, 10 Jul 2015 01:27:10  [INFO] Begin the 53 block
+Fri, 10 Jul 2015 01:27:22  [INFO] Finish the 36 block. Best optimal: 6.288840e+01 with 401 iterations
+Fri, 10 Jul 2015 01:27:25  [INFO] Begin the 54 block
+Fri, 10 Jul 2015 01:27:29  [INFO] Finish the 37 block. Best optimal: 5.019616e+01 with 401 iterations
+Fri, 10 Jul 2015 01:27:33  [INFO] Begin the 55 block
+Fri, 10 Jul 2015 01:28:05  [INFO] Finish the 51 block. Best optimal: 3.671151e+01 with 78 iterations
+Fri, 10 Jul 2015 01:28:07  [INFO] Begin the 56 block
+Fri, 10 Jul 2015 01:28:16  [INFO] Finish the 52 block. Best optimal: 4.606975e+01 with 56 iterations
+Fri, 10 Jul 2015 01:28:18  [INFO] Begin the 57 block
+Fri, 10 Jul 2015 01:29:07  [INFO] Finish the 55 block. Best optimal: 1.022126e+02 with 53 iterations
+Fri, 10 Jul 2015 01:29:08  [INFO] Begin the 58 block
+Fri, 10 Jul 2015 01:29:18  [INFO] Finish the 54 block. Best optimal: 5.232202e+01 with 97 iterations
+Fri, 10 Jul 2015 01:29:19  [INFO] Begin the 59 block
+Fri, 10 Jul 2015 01:29:30  [INFO] Finish the 57 block. Best optimal: 3.645802e+01 with 42 iterations
+Fri, 10 Jul 2015 01:29:31  [INFO] Begin the 60 block
+Fri, 10 Jul 2015 01:29:45  [INFO] Finish the 56 block. Best optimal: 4.213486e+01 with 81 iterations
+Fri, 10 Jul 2015 01:29:46  [INFO] Begin the 61 block
+Fri, 10 Jul 2015 01:29:46  [INFO] Finish the 41 block. Best optimal: 6.222128e+01 with 401 iterations
+Fri, 10 Jul 2015 01:29:50  [INFO] Begin the 62 block
+Fri, 10 Jul 2015 01:30:17  [INFO] Finish the 53 block. Best optimal: 4.296729e+01 with 160 iterations
+Fri, 10 Jul 2015 01:30:20  [INFO] Begin the 63 block
+Fri, 10 Jul 2015 01:31:11  [INFO] Finish the 60 block. Best optimal: 1.101674e+02 with 60 iterations
+Fri, 10 Jul 2015 01:31:12  [INFO] Finish the 63 block. Best optimal: 4.474809e+01 with 27 iterations
+Fri, 10 Jul 2015 01:31:12  [INFO] Begin the 64 block
+Fri, 10 Jul 2015 01:31:13  [INFO] Begin the 65 block
+Fri, 10 Jul 2015 01:31:23  [INFO] Finish the 59 block. Best optimal: 4.434452e+01 with 109 iterations
+Fri, 10 Jul 2015 01:31:24  [INFO] Begin the 66 block
+Fri, 10 Jul 2015 01:31:27  [INFO] Finish the 61 block. Best optimal: 5.602939e+01 with 87 iterations
+Fri, 10 Jul 2015 01:31:28  [INFO] Begin the 67 block
+Fri, 10 Jul 2015 01:32:09  [INFO] Finish the 58 block. Best optimal: 4.339873e+01 with 160 iterations
+Fri, 10 Jul 2015 01:32:09  [INFO] Begin the 68 block
+Fri, 10 Jul 2015 01:33:07  [INFO] Finish the 65 block. Best optimal: 6.321892e+01 with 102 iterations
+Fri, 10 Jul 2015 01:33:10  [INFO] Begin the 69 block
+Fri, 10 Jul 2015 01:33:52  [INFO] Finish the 66 block. Best optimal: 5.044570e+01 with 130 iterations
+Fri, 10 Jul 2015 01:33:55  [INFO] Begin the 70 block
+Fri, 10 Jul 2015 01:34:13  [INFO] Finish the 47 block. Best optimal: 1.256677e+02 with 401 iterations
+Fri, 10 Jul 2015 01:34:14  [INFO] Begin the 71 block
+Fri, 10 Jul 2015 01:35:20  [INFO] Finish the 70 block. Best optimal: 6.373515e+01 with 58 iterations
+Fri, 10 Jul 2015 01:35:22  [INFO] Begin the 72 block
+Fri, 10 Jul 2015 01:35:55  [INFO] Finish the 71 block. Best optimal: 5.292780e+01 with 59 iterations
+Fri, 10 Jul 2015 01:35:56  [INFO] Begin the 73 block
+Fri, 10 Jul 2015 01:36:07  [INFO] Finish the 50 block. Best optimal: 8.598840e+01 with 401 iterations
+Fri, 10 Jul 2015 01:36:08  [INFO] Begin the 74 block
+Fri, 10 Jul 2015 01:36:23  [INFO] Finish the 62 block. Best optimal: 5.154778e+01 with 357 iterations
+Fri, 10 Jul 2015 01:36:23  [INFO] Begin the 75 block
+Fri, 10 Jul 2015 01:36:25  [INFO] Finish the 68 block. Best optimal: 5.275452e+01 with 230 iterations
+Fri, 10 Jul 2015 01:36:27  [INFO] Begin the 76 block
+Fri, 10 Jul 2015 01:36:35  [INFO] Finish the 67 block. Best optimal: 4.625786e+01 with 276 iterations
+Fri, 10 Jul 2015 01:36:38  [INFO] Begin the 77 block
+Fri, 10 Jul 2015 01:37:15  [INFO] Finish the 74 block. Best optimal: 6.121010e+01 with 41 iterations
+Fri, 10 Jul 2015 01:37:16  [INFO] Begin the 78 block
+Fri, 10 Jul 2015 01:38:01  [INFO] Finish the 76 block. Best optimal: 4.349707e+01 with 82 iterations
+Fri, 10 Jul 2015 01:38:02  [INFO] Begin the 79 block
+Fri, 10 Jul 2015 01:38:08  [INFO] Finish the 75 block. Best optimal: 3.740184e+01 with 63 iterations
+Fri, 10 Jul 2015 01:38:10  [INFO] Begin the 80 block
+Fri, 10 Jul 2015 01:38:11  [INFO] Finish the 72 block. Best optimal: 5.946577e+01 with 153 iterations
+Fri, 10 Jul 2015 01:38:13  [INFO] Begin the 81 block
+Fri, 10 Jul 2015 01:39:00  [INFO] Finish the 73 block. Best optimal: 6.472152e+01 with 164 iterations
+Fri, 10 Jul 2015 01:39:02  [INFO] Begin the 82 block
+Fri, 10 Jul 2015 01:39:28  [INFO] Finish the 80 block. Best optimal: 4.279080e+01 with 51 iterations
+Fri, 10 Jul 2015 01:39:29  [INFO] Begin the 83 block
+Fri, 10 Jul 2015 01:39:31  [INFO] Finish the 78 block. Best optimal: 4.417056e+01 with 85 iterations
+Fri, 10 Jul 2015 01:39:33  [INFO] Begin the 84 block
+Fri, 10 Jul 2015 01:39:57  [INFO] Finish the 79 block. Best optimal: 4.218742e+01 with 101 iterations
+Fri, 10 Jul 2015 01:39:59  [INFO] Begin the 85 block
+Fri, 10 Jul 2015 01:40:08  [INFO] Finish the 81 block. Best optimal: 3.537764e+01 with 102 iterations
+Fri, 10 Jul 2015 01:40:10  [INFO] Begin the 86 block
+Fri, 10 Jul 2015 01:40:41  [INFO] Finish the 82 block. Best optimal: 3.704047e+01 with 86 iterations
+Fri, 10 Jul 2015 01:40:42  [INFO] Finish the 83 block. Best optimal: 5.343750e+01 with 48 iterations
+Fri, 10 Jul 2015 01:40:43  [INFO] Begin the 87 block
+Fri, 10 Jul 2015 01:40:43  [INFO] Begin the 88 block
+Fri, 10 Jul 2015 01:41:19  [INFO] Finish the 84 block. Best optimal: 3.722050e+01 with 92 iterations
+Fri, 10 Jul 2015 01:41:21  [INFO] Begin the 89 block
+Fri, 10 Jul 2015 01:42:22  [INFO] Finish the 64 block. Best optimal: 6.600162e+01 with 401 iterations
+Fri, 10 Jul 2015 01:42:25  [INFO] Begin the 90 block
+Fri, 10 Jul 2015 01:43:24  [INFO] Finish the 87 block. Best optimal: 4.660666e+01 with 143 iterations
+Fri, 10 Jul 2015 01:43:25  [INFO] Begin the 91 block
+Fri, 10 Jul 2015 01:43:35  [INFO] Finish the 88 block. Best optimal: 4.904262e+01 with 153 iterations
+Fri, 10 Jul 2015 01:43:36  [INFO] Begin the 92 block
+Fri, 10 Jul 2015 01:44:03  [INFO] Finish the 69 block. Best optimal: 5.796744e+01 with 401 iterations
+Fri, 10 Jul 2015 01:44:06  [INFO] Begin the 93 block
+Fri, 10 Jul 2015 01:44:34  [INFO] Finish the 86 block. Best optimal: 9.946545e+01 with 203 iterations
+Fri, 10 Jul 2015 01:44:36  [INFO] Begin the 94 block
+Fri, 10 Jul 2015 01:44:53  [INFO] Finish the 89 block. Best optimal: 4.302915e+01 with 191 iterations
+Fri, 10 Jul 2015 01:44:55  [INFO] Begin the 95 block
+Fri, 10 Jul 2015 01:45:13  [INFO] Finish the 93 block. Best optimal: 5.382666e+01 with 40 iterations
+Fri, 10 Jul 2015 01:45:14  [INFO] Begin the 96 block
+Fri, 10 Jul 2015 01:46:34  [INFO] Finish the 77 block. Best optimal: 4.605672e+01 with 401 iterations
+Fri, 10 Jul 2015 01:46:37  [INFO] Begin the 97 block
+Fri, 10 Jul 2015 01:46:47  [INFO] Finish the 94 block. Best optimal: 5.167534e+01 with 115 iterations
+Fri, 10 Jul 2015 01:46:49  [INFO] Begin the 98 block
+Fri, 10 Jul 2015 01:47:59  [INFO] Finish the 96 block. Best optimal: 5.346751e+01 with 147 iterations
+Fri, 10 Jul 2015 01:48:00  [INFO] Begin the 99 block
+Fri, 10 Jul 2015 01:48:29  [INFO] Finish the 95 block. Best optimal: 4.757360e+01 with 192 iterations
+Fri, 10 Jul 2015 01:48:31  [INFO] Begin the 100 block
+Fri, 10 Jul 2015 01:49:18  [INFO] Finish the 98 block. Best optimal: 7.344926e+01 with 122 iterations
+Fri, 10 Jul 2015 01:49:19  [INFO] Begin the 101 block
+Fri, 10 Jul 2015 01:49:20  [INFO] Finish the 85 block. Best optimal: 4.843672e+01 with 401 iterations
+Fri, 10 Jul 2015 01:49:23  [INFO] Begin the 102 block
+Fri, 10 Jul 2015 01:50:11  [INFO] Finish the 100 block. Best optimal: 4.794926e+01 with 88 iterations
+Fri, 10 Jul 2015 01:50:12  [INFO] Begin the 103 block
+Fri, 10 Jul 2015 01:50:22  [INFO] Finish the 97 block. Best optimal: 5.470050e+01 with 203 iterations
+Fri, 10 Jul 2015 01:50:24  [INFO] Begin the 104 block
+Fri, 10 Jul 2015 01:50:52  [INFO] Finish the 91 block. Best optimal: 4.947743e+01 with 401 iterations
+Fri, 10 Jul 2015 01:50:54  [INFO] Begin the 105 block
+Fri, 10 Jul 2015 01:51:07  [INFO] Finish the 99 block. Best optimal: 6.276377e+01 with 168 iterations
+Fri, 10 Jul 2015 01:51:10  [INFO] Begin the 106 block
+Fri, 10 Jul 2015 01:51:53  [INFO] Finish the 103 block. Best optimal: 5.955182e+01 with 89 iterations
+Fri, 10 Jul 2015 01:51:54  [INFO] Begin the 107 block
+Fri, 10 Jul 2015 01:52:18  [INFO] Finish the 101 block. Best optimal: 5.124159e+01 with 155 iterations
+Fri, 10 Jul 2015 01:52:21  [INFO] Begin the 108 block
+Fri, 10 Jul 2015 01:52:25  [INFO] Finish the 90 block. Best optimal: 8.379532e+01 with 401 iterations
+Fri, 10 Jul 2015 01:52:25  [INFO] Finish the 92 block. Best optimal: 5.241285e+01 with 401 iterations
+Fri, 10 Jul 2015 01:52:28  [INFO] Begin the 109 block
+Fri, 10 Jul 2015 01:52:28  [INFO] Begin the 110 block
+Fri, 10 Jul 2015 01:52:45  [INFO] Finish the 105 block. Best optimal: 4.490039e+01 with 98 iterations
+Fri, 10 Jul 2015 01:52:47  [INFO] Begin the 111 block
+Fri, 10 Jul 2015 01:53:26  [INFO] Finish the 107 block. Best optimal: 4.916239e+01 with 80 iterations
+Fri, 10 Jul 2015 01:53:29  [INFO] Begin the 112 block
+Fri, 10 Jul 2015 01:53:43  [INFO] Finish the 110 block. Best optimal: 6.323516e+01 with 45 iterations
+Fri, 10 Jul 2015 01:53:44  [INFO] Begin the 113 block
+Fri, 10 Jul 2015 01:53:53  [INFO] Finish the 106 block. Best optimal: 3.924888e+01 with 108 iterations
+Fri, 10 Jul 2015 01:53:55  [INFO] Begin the 114 block
+Fri, 10 Jul 2015 01:54:16  [INFO] Finish the 108 block. Best optimal: 4.174740e+01 with 100 iterations
+Fri, 10 Jul 2015 01:54:18  [INFO] Begin the 115 block
+Fri, 10 Jul 2015 01:54:31  [INFO] Finish the 111 block. Best optimal: 4.703575e+01 with 88 iterations
+Fri, 10 Jul 2015 01:54:33  [INFO] Begin the 116 block
+Fri, 10 Jul 2015 01:55:01  [INFO] Finish the 112 block. Best optimal: 5.565749e+01 with 61 iterations
+Fri, 10 Jul 2015 01:55:03  [INFO] Begin the 117 block
+Fri, 10 Jul 2015 01:56:33  [INFO] Finish the 116 block. Best optimal: 5.001567e+01 with 107 iterations
+Fri, 10 Jul 2015 01:56:33  [INFO] Begin the 118 block
+Fri, 10 Jul 2015 01:56:46  [INFO] Finish the 114 block. Best optimal: 4.499693e+01 with 154 iterations
+Fri, 10 Jul 2015 01:56:48  [INFO] Begin the 119 block
+Fri, 10 Jul 2015 01:57:23  [INFO] Finish the 102 block. Best optimal: 4.781257e+01 with 401 iterations
+Fri, 10 Jul 2015 01:57:24  [INFO] Finish the 113 block. Best optimal: 5.454914e+01 with 200 iterations
+Fri, 10 Jul 2015 01:57:26  [INFO] Begin the 120 block
+Fri, 10 Jul 2015 01:57:26  [INFO] Begin the 121 block
+Fri, 10 Jul 2015 01:57:39  [INFO] Finish the 115 block. Best optimal: 4.370278e+01 with 177 iterations
+Fri, 10 Jul 2015 01:57:41  [INFO] Begin the 122 block
+Fri, 10 Jul 2015 01:58:09  [INFO] Finish the 117 block. Best optimal: 4.485340e+01 with 169 iterations
+Fri, 10 Jul 2015 01:58:11  [INFO] Begin the 123 block
+Fri, 10 Jul 2015 01:58:29  [INFO] Finish the 121 block. Best optimal: 5.179733e+01 with 38 iterations
+Fri, 10 Jul 2015 01:58:30  [INFO] Begin the 124 block
+Fri, 10 Jul 2015 01:59:48  [INFO] Finish the 123 block. Best optimal: 5.586698e+01 with 61 iterations
+Fri, 10 Jul 2015 01:59:48  [INFO] Begin the 125 block
+Fri, 10 Jul 2015 01:59:56  [INFO] Finish the 104 block. Best optimal: 3.834536e+01 with 401 iterations
+Fri, 10 Jul 2015 02:00:00  [INFO] Begin the 126 block
+Fri, 10 Jul 2015 02:00:13  [INFO] Finish the 120 block. Best optimal: 4.803284e+01 with 149 iterations
+Fri, 10 Jul 2015 02:00:15  [INFO] Begin the 127 block
+Fri, 10 Jul 2015 02:00:50  [INFO] Finish the 122 block. Best optimal: 5.035959e+01 with 169 iterations
+Fri, 10 Jul 2015 02:00:52  [INFO] Begin the 128 block
+Fri, 10 Jul 2015 02:00:55  [INFO] Finish the 125 block. Best optimal: 4.029787e+01 with 42 iterations
+Fri, 10 Jul 2015 02:00:56  [INFO] Begin the 129 block
+Fri, 10 Jul 2015 02:00:59  [INFO] Finish the 126 block. Best optimal: 3.885206e+01 with 33 iterations
+Fri, 10 Jul 2015 02:01:00  [INFO] Begin the 130 block
+Fri, 10 Jul 2015 02:01:21  [INFO] Finish the 118 block. Best optimal: 4.436581e+01 with 259 iterations
+Fri, 10 Jul 2015 02:01:22  [INFO] Finish the 127 block. Best optimal: 6.225188e+01 with 39 iterations
+Fri, 10 Jul 2015 02:01:22  [INFO] Begin the 131 block
+Fri, 10 Jul 2015 02:01:23  [INFO] Begin the 132 block
+Fri, 10 Jul 2015 02:01:41  [INFO] Finish the 124 block. Best optimal: 4.944956e+01 with 171 iterations
+Fri, 10 Jul 2015 02:01:41  [INFO] Begin the 133 block
+Fri, 10 Jul 2015 02:02:34  [INFO] Finish the 128 block. Best optimal: 3.365992e+01 with 91 iterations
+Fri, 10 Jul 2015 02:02:34  [INFO] Finish the 129 block. Best optimal: 4.532424e+01 with 85 iterations
+Fri, 10 Jul 2015 02:02:35  [INFO] Finish the 131 block. Best optimal: 3.552333e+01 with 40 iterations
+Fri, 10 Jul 2015 02:02:36  [INFO] Begin the 134 block
+Fri, 10 Jul 2015 02:02:37  [INFO] Begin the 135 block
+Fri, 10 Jul 2015 02:02:37  [INFO] Begin the 136 block
+Fri, 10 Jul 2015 02:02:53  [INFO] Finish the 133 block. Best optimal: 4.183377e+01 with 45 iterations
+Fri, 10 Jul 2015 02:02:56  [INFO] Begin the 137 block
+Fri, 10 Jul 2015 02:03:39  [INFO] Finish the 136 block. Best optimal: 4.042996e+01 with 34 iterations
+Fri, 10 Jul 2015 02:03:41  [INFO] Begin the 138 block
+Fri, 10 Jul 2015 02:03:47  [INFO] Finish the 109 block. Best optimal: 4.020815e+01 with 401 iterations
+Fri, 10 Jul 2015 02:03:48  [INFO] Begin the 139 block
+Fri, 10 Jul 2015 02:04:08  [INFO] Finish the 132 block. Best optimal: 4.917162e+01 with 146 iterations
+Fri, 10 Jul 2015 02:04:08  [INFO] Finish the 134 block. Best optimal: 4.640342e+01 with 78 iterations
+Fri, 10 Jul 2015 02:04:11  [INFO] Begin the 140 block
+Fri, 10 Jul 2015 02:04:11  [INFO] Begin the 141 block
+Fri, 10 Jul 2015 02:04:16  [INFO] Finish the 137 block. Best optimal: 4.624381e+01 with 48 iterations
+Fri, 10 Jul 2015 02:04:18  [INFO] Begin the 142 block
+Fri, 10 Jul 2015 02:05:09  [INFO] Finish the 139 block. Best optimal: 1.141034e+02 with 43 iterations
+Fri, 10 Jul 2015 02:05:11  [INFO] Begin the 143 block
+Fri, 10 Jul 2015 02:05:49  [INFO] Finish the 135 block. Best optimal: 4.314372e+01 with 170 iterations
+Fri, 10 Jul 2015 02:05:51  [INFO] Begin the 144 block
+Fri, 10 Jul 2015 02:06:20  [INFO] Finish the 141 block. Best optimal: 4.409013e+01 with 115 iterations
+Fri, 10 Jul 2015 02:06:22  [INFO] Begin the 145 block
+Fri, 10 Jul 2015 02:06:29  [INFO] Finish the 119 block. Best optimal: 5.276160e+01 with 401 iterations
+Fri, 10 Jul 2015 02:06:29  [INFO] Begin the 146 block
+Fri, 10 Jul 2015 02:07:30  [INFO] Finish the 138 block. Best optimal: 4.333123e+01 with 207 iterations
+Fri, 10 Jul 2015 02:07:33  [INFO] Begin the 147 block
+Fri, 10 Jul 2015 02:08:56  [INFO] Finish the 146 block. Best optimal: 4.265503e+01 with 132 iterations
+Fri, 10 Jul 2015 02:08:56  [INFO] Begin the 148 block
+Fri, 10 Jul 2015 02:08:58  [INFO] Finish the 143 block. Best optimal: 4.725748e+01 with 201 iterations
+Fri, 10 Jul 2015 02:09:00  [INFO] Begin the 149 block
+Fri, 10 Jul 2015 02:09:02  [INFO] Finish the 144 block. Best optimal: 4.437516e+01 with 174 iterations
+Fri, 10 Jul 2015 02:09:04  [INFO] Begin the 150 block
+Fri, 10 Jul 2015 02:09:14  [INFO] Finish the 145 block. Best optimal: 5.411063e+01 with 155 iterations
+Fri, 10 Jul 2015 02:09:16  [INFO] Begin the 151 block
+Fri, 10 Jul 2015 02:10:04  [INFO] Finish the 150 block. Best optimal: 4.583611e+01 with 33 iterations
+Fri, 10 Jul 2015 02:10:04  [INFO] Begin the 152 block
+Fri, 10 Jul 2015 02:10:18  [INFO] Finish the 147 block. Best optimal: 5.454174e+01 with 146 iterations
+Fri, 10 Jul 2015 02:10:19  [INFO] Finish the 151 block. Best optimal: 4.381287e+01 with 37 iterations
+Fri, 10 Jul 2015 02:10:19  [INFO] Begin the 153 block
+Fri, 10 Jul 2015 02:10:20  [INFO] Begin the 154 block
+Fri, 10 Jul 2015 02:11:08  [INFO] Finish the 130 block. Best optimal: 6.225948e+01 with 401 iterations
+Fri, 10 Jul 2015 02:11:12  [INFO] Begin the 155 block
+Fri, 10 Jul 2015 02:11:48  [INFO] Finish the 154 block. Best optimal: 4.797800e+01 with 74 iterations
+Fri, 10 Jul 2015 02:11:49  [INFO] Begin the 156 block
+Fri, 10 Jul 2015 02:11:51  [INFO] Finish the 152 block. Best optimal: 5.166538e+01 with 93 iterations
+Fri, 10 Jul 2015 02:11:52  [INFO] Begin the 157 block
+Fri, 10 Jul 2015 02:11:54  [INFO] Finish the 149 block. Best optimal: 5.693982e+01 with 156 iterations
+Fri, 10 Jul 2015 02:11:56  [INFO] Begin the 158 block
+Fri, 10 Jul 2015 02:12:10  [INFO] Finish the 153 block. Best optimal: 4.105694e+01 with 94 iterations
+Fri, 10 Jul 2015 02:12:11  [INFO] Begin the 159 block
+Fri, 10 Jul 2015 02:13:02  [INFO] Finish the 155 block. Best optimal: 4.660580e+01 with 94 iterations
+Fri, 10 Jul 2015 02:13:04  [INFO] Begin the 160 block
+Fri, 10 Jul 2015 02:13:17  [INFO] Finish the 156 block. Best optimal: 5.348502e+01 with 61 iterations
+Fri, 10 Jul 2015 02:13:19  [INFO] Begin the 161 block
+Fri, 10 Jul 2015 02:13:36  [INFO] Finish the 157 block. Best optimal: 5.023975e+01 with 92 iterations
+Fri, 10 Jul 2015 02:13:37  [INFO] Begin the 162 block
+Fri, 10 Jul 2015 02:13:39  [INFO] Finish the 158 block. Best optimal: 4.501062e+01 with 89 iterations
+Fri, 10 Jul 2015 02:13:41  [INFO] Begin the 163 block
+Fri, 10 Jul 2015 02:13:42  [INFO] Finish the 142 block. Best optimal: 8.560648e+01 with 401 iterations
+Fri, 10 Jul 2015 02:13:45  [INFO] Begin the 164 block
+Fri, 10 Jul 2015 02:14:05  [INFO] Finish the 159 block. Best optimal: 3.946448e+01 with 98 iterations
+Fri, 10 Jul 2015 02:14:07  [INFO] Begin the 165 block
+Fri, 10 Jul 2015 02:14:34  [INFO] Finish the 140 block. Best optimal: 1.000974e+02 with 401 iterations
+Fri, 10 Jul 2015 02:14:38  [INFO] Begin the 166 block
+Fri, 10 Jul 2015 02:14:46  [INFO] Finish the 160 block. Best optimal: 4.573066e+01 with 89 iterations
+Fri, 10 Jul 2015 02:14:49  [INFO] Begin the 167 block
+Fri, 10 Jul 2015 02:14:58  [INFO] Finish the 161 block. Best optimal: 5.552952e+01 with 86 iterations
+Fri, 10 Jul 2015 02:15:01  [INFO] Begin the 168 block
+Fri, 10 Jul 2015 02:15:25  [INFO] Finish the 164 block. Best optimal: 5.377425e+01 with 59 iterations
+Fri, 10 Jul 2015 02:15:27  [INFO] Begin the 169 block
+Fri, 10 Jul 2015 02:16:19  [INFO] Finish the 167 block. Best optimal: 1.014323e+02 with 53 iterations
+Fri, 10 Jul 2015 02:16:20  [INFO] Begin the 170 block
+Fri, 10 Jul 2015 02:16:44  [INFO] Finish the 163 block. Best optimal: 5.333919e+01 with 162 iterations
+Fri, 10 Jul 2015 02:16:47  [INFO] Begin the 171 block
+Fri, 10 Jul 2015 02:16:48  [INFO] Finish the 165 block. Best optimal: 3.926480e+01 with 143 iterations
+Fri, 10 Jul 2015 02:16:50  [INFO] Begin the 172 block
+Fri, 10 Jul 2015 02:17:53  [INFO] Finish the 168 block. Best optimal: 3.496977e+01 with 156 iterations
+Fri, 10 Jul 2015 02:17:54  [INFO] Begin the 173 block
+Fri, 10 Jul 2015 02:17:56  [INFO] Finish the 169 block. Best optimal: 3.831311e+01 with 135 iterations
+Fri, 10 Jul 2015 02:17:58  [INFO] Begin the 174 block
+Fri, 10 Jul 2015 02:18:41  [INFO] Finish the 148 block. Best optimal: 9.513051e+01 with 401 iterations
+Fri, 10 Jul 2015 02:18:44  [INFO] Begin the 175 block
+Fri, 10 Jul 2015 02:18:45  [INFO] Finish the 170 block. Best optimal: 4.187334e+01 with 131 iterations
+Fri, 10 Jul 2015 02:18:48  [INFO] Begin the 176 block
+Fri, 10 Jul 2015 02:19:54  [INFO] Finish the 172 block. Best optimal: 4.421214e+01 with 128 iterations
+Fri, 10 Jul 2015 02:19:56  [INFO] Begin the 177 block
+Fri, 10 Jul 2015 02:20:09  [INFO] Finish the 171 block. Best optimal: 6.968247e+01 with 171 iterations
+Fri, 10 Jul 2015 02:20:12  [INFO] Begin the 178 block
+Fri, 10 Jul 2015 02:20:22  [INFO] Finish the 176 block. Best optimal: 5.128167e+01 with 80 iterations
+Fri, 10 Jul 2015 02:20:23  [INFO] Begin the 179 block
+Fri, 10 Jul 2015 02:20:29  [INFO] Finish the 175 block. Best optimal: 4.200624e+01 with 63 iterations
+Fri, 10 Jul 2015 02:20:31  [INFO] Begin the 180 block
+Fri, 10 Jul 2015 02:21:10  [INFO] Finish the 173 block. Best optimal: 6.104762e+01 with 173 iterations
+Fri, 10 Jul 2015 02:21:12  [INFO] Begin the 181 block
+Fri, 10 Jul 2015 02:22:03  [INFO] Finish the 166 block. Best optimal: 4.544517e+01 with 401 iterations
+Fri, 10 Jul 2015 02:22:05  [INFO] Begin the 182 block
+Fri, 10 Jul 2015 02:22:07  [INFO] Finish the 178 block. Best optimal: 4.280965e+01 with 98 iterations
+Fri, 10 Jul 2015 02:22:09  [INFO] Begin the 183 block
+Fri, 10 Jul 2015 02:22:14  [INFO] Finish the 174 block. Best optimal: 4.403860e+01 with 228 iterations
+Fri, 10 Jul 2015 02:22:17  [INFO] Begin the 184 block
+Fri, 10 Jul 2015 02:23:15  [INFO] Finish the 183 block. Best optimal: 3.028639e+01 with 37 iterations
+Fri, 10 Jul 2015 02:23:16  [INFO] Begin the 185 block
+Fri, 10 Jul 2015 02:24:02  [INFO] Finish the 162 block. Best optimal: 5.368137e+01 with 401 iterations
+Fri, 10 Jul 2015 02:24:06  [INFO] Begin the 186 block
+Fri, 10 Jul 2015 02:24:12  [INFO] Finish the 182 block. Best optimal: 4.413592e+01 with 110 iterations
+Fri, 10 Jul 2015 02:24:13  [INFO] Begin the 187 block
+Fri, 10 Jul 2015 02:25:28  [INFO] Finish the 185 block. Best optimal: 4.572783e+01 with 113 iterations
+Fri, 10 Jul 2015 02:25:29  [INFO] Begin the 188 block
+Fri, 10 Jul 2015 02:27:15  [INFO] Finish the 187 block. Best optimal: 4.902785e+01 with 166 iterations
+Fri, 10 Jul 2015 02:27:15  [INFO] Begin the 189 block
+Fri, 10 Jul 2015 02:28:31  [INFO] Finish the 188 block. Best optimal: 4.224554e+01 with 163 iterations
+Fri, 10 Jul 2015 02:28:31  [INFO] Begin the 190 block
+Fri, 10 Jul 2015 02:29:05  [INFO] Finish the 177 block. Best optimal: 8.546826e+01 with 401 iterations
+Fri, 10 Jul 2015 02:29:09  [INFO] Begin the 191 block
+Fri, 10 Jul 2015 02:30:16  [INFO] Finish the 189 block. Best optimal: 5.958955e+01 with 160 iterations
+Fri, 10 Jul 2015 02:30:17  [INFO] Begin the 192 block
+Fri, 10 Jul 2015 02:30:38  [INFO] Finish the 180 block. Best optimal: 4.854357e+01 with 401 iterations
+Fri, 10 Jul 2015 02:30:40  [INFO] Begin the 193 block
+Fri, 10 Jul 2015 02:31:01  [INFO] Finish the 181 block. Best optimal: 3.943078e+01 with 401 iterations
+Fri, 10 Jul 2015 02:31:03  [INFO] Begin the 194 block
+Fri, 10 Jul 2015 02:31:21  [INFO] Finish the 191 block. Best optimal: 5.219341e+01 with 115 iterations
+Fri, 10 Jul 2015 02:31:21  [INFO] Begin the 195 block
+Fri, 10 Jul 2015 02:31:39  [INFO] Finish the 179 block. Best optimal: 4.498606e+01 with 401 iterations
+Fri, 10 Jul 2015 02:31:39  [INFO] Finish the 184 block. Best optimal: 5.378724e+01 with 401 iterations
+Fri, 10 Jul 2015 02:31:40  [INFO] Begin the 196 block
+Fri, 10 Jul 2015 02:31:41  [INFO] Begin the 197 block
+Fri, 10 Jul 2015 02:31:59  [INFO] Finish the 190 block. Best optimal: 5.752191e+01 with 189 iterations
+Fri, 10 Jul 2015 02:32:00  [INFO] Begin the 198 block
+Fri, 10 Jul 2015 02:32:00  [INFO] Finish the 192 block. Best optimal: 5.401261e+01 with 63 iterations
+Fri, 10 Jul 2015 02:32:03  [INFO] Begin the 199 block
+Fri, 10 Jul 2015 02:32:40  [INFO] Finish the 197 block. Best optimal: 3.611052e+01 with 31 iterations
+Fri, 10 Jul 2015 02:32:42  [INFO] Begin the 200 block
+Fri, 10 Jul 2015 02:32:50  [INFO] Finish the 193 block. Best optimal: 4.064754e+01 with 115 iterations
+Fri, 10 Jul 2015 02:32:53  [INFO] Begin the 201 block
+Fri, 10 Jul 2015 02:34:07  [INFO] Finish the 201 block. Best optimal: 5.752442e+01 with 50 iterations
+Fri, 10 Jul 2015 02:34:08  [INFO] Begin the 202 block
+Fri, 10 Jul 2015 02:34:36  [INFO] Finish the 198 block. Best optimal: 3.819532e+01 with 139 iterations
+Fri, 10 Jul 2015 02:34:38  [INFO] Begin the 203 block
+Fri, 10 Jul 2015 02:34:54  [INFO] Finish the 196 block. Best optimal: 3.971132e+01 with 178 iterations
+Fri, 10 Jul 2015 02:34:56  [INFO] Begin the 204 block
+Fri, 10 Jul 2015 02:35:05  [INFO] Finish the 199 block. Best optimal: 4.683233e+01 with 151 iterations
+Fri, 10 Jul 2015 02:35:08  [INFO] Begin the 205 block
+Fri, 10 Jul 2015 02:35:20  [INFO] Finish the 195 block. Best optimal: 3.824779e+01 with 210 iterations
+Fri, 10 Jul 2015 02:35:23  [INFO] Begin the 206 block
+Fri, 10 Jul 2015 02:35:34  [INFO] Finish the 186 block. Best optimal: 1.161929e+02 with 401 iterations
+Fri, 10 Jul 2015 02:35:34  [INFO] Begin the 207 block
+Fri, 10 Jul 2015 02:35:47  [INFO] Finish the 202 block. Best optimal: 5.364935e+01 with 85 iterations
+Fri, 10 Jul 2015 02:35:49  [INFO] Begin the 208 block
+Fri, 10 Jul 2015 02:36:03  [INFO] Finish the 205 block. Best optimal: 2.765477e+01 with 30 iterations
+Fri, 10 Jul 2015 02:36:04  [INFO] Begin the 209 block
+Fri, 10 Jul 2015 02:36:36  [INFO] Finish the 203 block. Best optimal: 4.431160e+01 with 105 iterations
+Fri, 10 Jul 2015 02:36:37  [INFO] Finish the 204 block. Best optimal: 3.917343e+01 with 85 iterations
+Fri, 10 Jul 2015 02:36:39  [INFO] Begin the 210 block
+Fri, 10 Jul 2015 02:36:39  [INFO] Begin the 211 block
+Fri, 10 Jul 2015 02:36:56  [INFO] Finish the 208 block. Best optimal: 5.200288e+01 with 41 iterations
+Fri, 10 Jul 2015 02:36:58  [INFO] Begin the 212 block
+Fri, 10 Jul 2015 02:37:53  [INFO] Finish the 209 block. Best optimal: 5.978833e+01 with 97 iterations
+Fri, 10 Jul 2015 02:37:55  [INFO] Begin the 213 block
+Fri, 10 Jul 2015 02:38:01  [INFO] Finish the 210 block. Best optimal: 4.417049e+01 with 49 iterations
+Fri, 10 Jul 2015 02:38:03  [INFO] Begin the 214 block
+Fri, 10 Jul 2015 02:38:20  [INFO] Finish the 211 block. Best optimal: 4.322735e+01 with 86 iterations
+Fri, 10 Jul 2015 02:38:21  [INFO] Begin the 215 block
+Fri, 10 Jul 2015 02:39:03  [INFO] Finish the 194 block. Best optimal: 7.943478e+01 with 401 iterations
+Fri, 10 Jul 2015 02:39:06  [INFO] Begin the 216 block
+Fri, 10 Jul 2015 02:39:46  [INFO] Finish the 213 block. Best optimal: 4.610738e+01 with 99 iterations
+Fri, 10 Jul 2015 02:39:48  [INFO] Begin the 217 block
+Fri, 10 Jul 2015 02:40:32  [INFO] Finish the 214 block. Best optimal: 4.049260e+01 with 136 iterations
+Fri, 10 Jul 2015 02:40:33  [INFO] Begin the 218 block
+Fri, 10 Jul 2015 02:41:31  [INFO] Finish the 215 block. Best optimal: 4.631879e+01 with 168 iterations
+Fri, 10 Jul 2015 02:41:33  [INFO] Begin the 219 block
+Fri, 10 Jul 2015 02:42:04  [INFO] Finish the 200 block. Best optimal: 5.140729e+01 with 401 iterations
+Fri, 10 Jul 2015 02:42:07  [INFO] Begin the 220 block
+Fri, 10 Jul 2015 02:43:14  [INFO] Finish the 218 block. Best optimal: 3.707248e+01 with 141 iterations
+Fri, 10 Jul 2015 02:43:15  [INFO] Begin the 221 block
+Fri, 10 Jul 2015 02:43:50  [INFO] Finish the 207 block. Best optimal: 6.014436e+01 with 401 iterations
+Fri, 10 Jul 2015 02:43:52  [INFO] Finish the 219 block. Best optimal: 5.582949e+01 with 124 iterations
+Fri, 10 Jul 2015 02:43:53  [INFO] Begin the 222 block
+Fri, 10 Jul 2015 02:43:53  [INFO] Begin the 223 block
+Fri, 10 Jul 2015 02:44:06  [INFO] Finish the 217 block. Best optimal: 4.304450e+01 with 216 iterations
+Fri, 10 Jul 2015 02:44:08  [INFO] Begin the 224 block
+Fri, 10 Jul 2015 02:44:27  [INFO] Finish the 206 block. Best optimal: 4.434559e+01 with 401 iterations
+Fri, 10 Jul 2015 02:44:27  [INFO] Finish the 212 block. Best optimal: 6.305561e+01 with 401 iterations
+Fri, 10 Jul 2015 02:44:30  [INFO] Begin the 225 block
+Fri, 10 Jul 2015 02:44:30  [INFO] Begin the 226 block
+Fri, 10 Jul 2015 02:45:12  [INFO] Finish the 216 block. Best optimal: 3.858154e+01 with 325 iterations
+Fri, 10 Jul 2015 02:45:16  [INFO] Begin the 227 block
+Fri, 10 Jul 2015 02:46:04  [INFO] Finish the 225 block. Best optimal: 4.518688e+01 with 78 iterations
+Fri, 10 Jul 2015 02:46:05  [INFO] Begin the 228 block
+Fri, 10 Jul 2015 02:46:23  [INFO] Finish the 226 block. Best optimal: 4.384783e+01 with 98 iterations
+Fri, 10 Jul 2015 02:46:24  [INFO] Begin the 229 block
+Fri, 10 Jul 2015 02:46:52  [INFO] Finish the 222 block. Best optimal: 5.395231e+01 with 162 iterations
+Fri, 10 Jul 2015 02:46:54  [INFO] Begin the 230 block
+Fri, 10 Jul 2015 02:47:04  [INFO] Finish the 227 block. Best optimal: 4.800057e+01 with 92 iterations
+Fri, 10 Jul 2015 02:47:05  [INFO] Begin the 231 block
+Fri, 10 Jul 2015 02:47:14  [INFO] Finish the 223 block. Best optimal: 5.347706e+01 with 183 iterations
+Fri, 10 Jul 2015 02:47:17  [INFO] Begin the 232 block
+Fri, 10 Jul 2015 02:48:36  [INFO] Finish the 230 block. Best optimal: 1.107852e+02 with 61 iterations
+Fri, 10 Jul 2015 02:48:37  [INFO] Begin the 233 block
+Fri, 10 Jul 2015 02:48:43  [INFO] Finish the 229 block. Best optimal: 3.189979e+01 with 94 iterations
+Fri, 10 Jul 2015 02:48:44  [INFO] Begin the 234 block
+Fri, 10 Jul 2015 02:48:46  [INFO] Finish the 224 block. Best optimal: 3.784486e+01 with 255 iterations
+Fri, 10 Jul 2015 02:48:48  [INFO] Begin the 235 block
+Fri, 10 Jul 2015 02:49:13  [INFO] Finish the 232 block. Best optimal: 5.599535e+01 with 104 iterations
+Fri, 10 Jul 2015 02:49:14  [INFO] Begin the 236 block
+Fri, 10 Jul 2015 02:49:34  [INFO] Finish the 220 block. Best optimal: 4.725852e+01 with 401 iterations
+Fri, 10 Jul 2015 02:49:37  [INFO] Begin the 237 block
+Fri, 10 Jul 2015 02:49:51  [INFO] Finish the 234 block. Best optimal: 4.289766e+01 with 40 iterations
+Fri, 10 Jul 2015 02:49:52  [INFO] Begin the 238 block
+Fri, 10 Jul 2015 02:51:04  [INFO] Finish the 236 block. Best optimal: 4.755171e+01 with 96 iterations
+Fri, 10 Jul 2015 02:51:05  [INFO] Begin the 239 block
+Fri, 10 Jul 2015 02:51:42  [INFO] Finish the 221 block. Best optimal: 8.116123e+01 with 401 iterations
+Fri, 10 Jul 2015 02:51:46  [INFO] Begin the 240 block
+Fri, 10 Jul 2015 02:52:22  [INFO] Finish the 237 block. Best optimal: 5.448211e+01 with 135 iterations
+Fri, 10 Jul 2015 02:52:23  [INFO] Begin the 241 block
+Fri, 10 Jul 2015 02:53:46  [INFO] Finish the 240 block. Best optimal: 3.470730e+01 with 104 iterations
+Fri, 10 Jul 2015 02:53:47  [INFO] Begin the 242 block
+Fri, 10 Jul 2015 02:54:51  [INFO] Finish the 239 block. Best optimal: 4.972915e+01 with 202 iterations
+Fri, 10 Jul 2015 02:54:52  [INFO] Begin the 243 block
+Fri, 10 Jul 2015 02:55:53  [INFO] Finish the 228 block. Best optimal: 5.201475e+01 with 401 iterations
+Fri, 10 Jul 2015 02:55:56  [INFO] Begin the 244 block
+Fri, 10 Jul 2015 02:57:16  [INFO] Finish the 231 block. Best optimal: 5.300711e+01 with 401 iterations
+Fri, 10 Jul 2015 02:57:20  [INFO] Begin the 245 block
+Fri, 10 Jul 2015 02:57:50  [INFO] Finish the 233 block. Best optimal: 5.071009e+01 with 401 iterations
+Fri, 10 Jul 2015 02:57:53  [INFO] Begin the 246 block
+Fri, 10 Jul 2015 02:58:18  [INFO] Finish the 244 block. Best optimal: 4.460143e+01 with 128 iterations
+Fri, 10 Jul 2015 02:58:19  [INFO] Begin the 247 block
+Fri, 10 Jul 2015 02:58:51  [INFO] Finish the 242 block. Best optimal: 3.264886e+01 with 273 iterations
+Fri, 10 Jul 2015 02:58:53  [INFO] Begin the 248 block
+Fri, 10 Jul 2015 02:59:01  [INFO] Finish the 235 block. Best optimal: 4.838629e+01 with 401 iterations
+Fri, 10 Jul 2015 02:59:04  [INFO] Begin the 249 block
+Fri, 10 Jul 2015 02:59:51  [INFO] Finish the 238 block. Best optimal: 5.546527e+01 with 401 iterations
+Fri, 10 Jul 2015 02:59:54  [INFO] Begin the 250 block
+Fri, 10 Jul 2015 03:00:08  [INFO] Finish the 247 block. Best optimal: 5.166747e+01 with 71 iterations
+Fri, 10 Jul 2015 03:00:09  [INFO] Finish the 249 block. Best optimal: 4.510528e+01 with 36 iterations
+Fri, 10 Jul 2015 03:00:09  [INFO] Begin the 251 block
+Fri, 10 Jul 2015 03:00:09  [INFO] Begin the 252 block
+Fri, 10 Jul 2015 03:00:29  [INFO] Finish the 245 block. Best optimal: 3.233655e+01 with 171 iterations
+Fri, 10 Jul 2015 03:00:32  [INFO] Begin the 253 block
+Fri, 10 Jul 2015 03:01:44  [INFO] Finish the 253 block. Best optimal: 4.864812e+01 with 44 iterations
+Fri, 10 Jul 2015 03:01:44  [INFO] Begin the 254 block
+Fri, 10 Jul 2015 03:02:08  [INFO] Finish the 246 block. Best optimal: 3.543567e+01 with 220 iterations
+Fri, 10 Jul 2015 03:02:11  [INFO] Begin the 255 block
+Fri, 10 Jul 2015 03:02:20  [INFO] Finish the 250 block. Best optimal: 4.202753e+01 with 123 iterations
+Fri, 10 Jul 2015 03:02:22  [INFO] Begin the 256 block
+Fri, 10 Jul 2015 03:02:23  [INFO] Finish the 241 block. Best optimal: 9.716663e+01 with 401 iterations
+Fri, 10 Jul 2015 03:02:26  [INFO] Begin the 257 block
+Fri, 10 Jul 2015 03:02:39  [INFO] Finish the 251 block. Best optimal: 5.582612e+01 with 133 iterations
+Fri, 10 Jul 2015 03:02:41  [INFO] Begin the 258 block
+Fri, 10 Jul 2015 03:03:33  [INFO] Finish the 248 block. Best optimal: 3.713575e+01 with 248 iterations
+Fri, 10 Jul 2015 03:03:34  [INFO] Begin the 259 block
+Fri, 10 Jul 2015 03:03:49  [INFO] Finish the 256 block. Best optimal: 5.644316e+01 with 56 iterations
+Fri, 10 Jul 2015 03:03:52  [INFO] Begin the 260 block
+Fri, 10 Jul 2015 03:04:52  [INFO] Finish the 243 block. Best optimal: 3.942383e+01 with 401 iterations
+Fri, 10 Jul 2015 03:04:53  [INFO] Begin the 261 block
+Fri, 10 Jul 2015 03:05:11  [INFO] Finish the 260 block. Best optimal: 5.075631e+01 with 49 iterations
+Fri, 10 Jul 2015 03:05:13  [INFO] Begin the 262 block
+Fri, 10 Jul 2015 03:05:16  [INFO] Finish the 255 block. Best optimal: 5.532585e+01 with 166 iterations
+Fri, 10 Jul 2015 03:05:16  [INFO] Begin the 263 block
+Fri, 10 Jul 2015 03:06:06  [INFO] Finish the 257 block. Best optimal: 5.341634e+01 with 199 iterations
+Fri, 10 Jul 2015 03:06:09  [INFO] Begin the 264 block
+Fri, 10 Jul 2015 03:06:31  [INFO] Finish the 252 block. Best optimal: 4.469627e+01 with 348 iterations
+Fri, 10 Jul 2015 03:06:32  [INFO] Begin the 265 block
+Fri, 10 Jul 2015 03:06:48  [INFO] Finish the 259 block. Best optimal: 4.420949e+01 with 175 iterations
+Fri, 10 Jul 2015 03:06:51  [INFO] Begin the 266 block
+Fri, 10 Jul 2015 03:06:55  [INFO] Finish the 254 block. Best optimal: 4.339212e+01 with 279 iterations
+Fri, 10 Jul 2015 03:06:55  [INFO] Begin the 267 block
+Fri, 10 Jul 2015 03:07:26  [INFO] Finish the 258 block. Best optimal: 5.030093e+01 with 255 iterations
+Fri, 10 Jul 2015 03:07:29  [INFO] Begin the 268 block
+Fri, 10 Jul 2015 03:08:02  [INFO] Finish the 266 block. Best optimal: 3.843074e+01 with 42 iterations
+Fri, 10 Jul 2015 03:08:03  [INFO] Begin the 269 block
+Fri, 10 Jul 2015 03:08:57  [INFO] Finish the 261 block. Best optimal: 4.236719e+01 with 208 iterations
+Fri, 10 Jul 2015 03:09:00  [INFO] Begin the 270 block
+Fri, 10 Jul 2015 03:10:08  [INFO] Finish the 268 block. Best optimal: 4.610435e+01 with 121 iterations
+Fri, 10 Jul 2015 03:10:09  [INFO] Begin the 271 block
+Fri, 10 Jul 2015 03:10:53  [INFO] Finish the 267 block. Best optimal: 3.114581e+01 with 212 iterations
+Fri, 10 Jul 2015 03:10:55  [INFO] Begin the 272 block
+Fri, 10 Jul 2015 03:13:37  [INFO] Finish the 264 block. Best optimal: 4.833275e+01 with 401 iterations
+Fri, 10 Jul 2015 03:13:39  [INFO] Begin the 273 block
+Fri, 10 Jul 2015 03:13:41  [INFO] Finish the 269 block. Best optimal: 3.475632e+01 with 296 iterations
+Fri, 10 Jul 2015 03:13:43  [INFO] Begin the 274 block
+Fri, 10 Jul 2015 03:13:56  [INFO] Finish the 265 block. Best optimal: 4.717482e+01 with 401 iterations
+Fri, 10 Jul 2015 03:13:59  [INFO] Begin the 275 block
+Fri, 10 Jul 2015 03:14:40  [INFO] Finish the 273 block. Best optimal: 3.380121e+01 with 33 iterations
+Fri, 10 Jul 2015 03:14:41  [INFO] Begin the 276 block
+Fri, 10 Jul 2015 03:14:45  [INFO] Finish the 262 block. Best optimal: 3.891791e+01 with 401 iterations
+Fri, 10 Jul 2015 03:14:48  [INFO] Begin the 277 block
+Fri, 10 Jul 2015 03:15:00  [INFO] Finish the 263 block. Best optimal: 4.691402e+01 with 401 iterations
+Fri, 10 Jul 2015 03:15:04  [INFO] Begin the 278 block
+Fri, 10 Jul 2015 03:15:34  [INFO] Finish the 271 block. Best optimal: 4.577362e+01 with 285 iterations
+Fri, 10 Jul 2015 03:15:37  [INFO] Begin the 279 block
+Fri, 10 Jul 2015 03:16:33  [INFO] Finish the 278 block. Best optimal: 5.138703e+01 with 51 iterations
+Fri, 10 Jul 2015 03:16:34  [INFO] Begin the 280 block
+Fri, 10 Jul 2015 03:16:42  [INFO] Finish the 270 block. Best optimal: 2.631345e+01 with 401 iterations
+Fri, 10 Jul 2015 03:16:43  [INFO] Finish the 276 block. Best optimal: 6.111628e+01 with 102 iterations
+Fri, 10 Jul 2015 03:16:45  [INFO] Begin the 281 block
+Fri, 10 Jul 2015 03:16:45  [INFO] Begin the 282 block
+Fri, 10 Jul 2015 03:17:00  [INFO] Finish the 272 block. Best optimal: 3.953124e+01 with 333 iterations
+Fri, 10 Jul 2015 03:17:04  [INFO] Begin the 283 block
+Fri, 10 Jul 2015 03:17:27  [INFO] Finish the 274 block. Best optimal: 5.394916e+01 with 191 iterations
+Fri, 10 Jul 2015 03:17:30  [INFO] Begin the 284 block
+Fri, 10 Jul 2015 03:18:43  [INFO] Finish the 277 block. Best optimal: 4.434151e+01 with 212 iterations
+Fri, 10 Jul 2015 03:18:46  [INFO] Begin the 285 block
+Fri, 10 Jul 2015 03:19:04  [INFO] Finish the 284 block. Best optimal: 4.661541e+01 with 52 iterations
+Fri, 10 Jul 2015 03:19:05  [INFO] Begin the 286 block
+Fri, 10 Jul 2015 03:21:40  [INFO] Finish the 285 block. Best optimal: 4.505435e+01 with 154 iterations
+Fri, 10 Jul 2015 03:21:40  [INFO] Begin the 287 block
+Fri, 10 Jul 2015 03:22:06  [INFO] Finish the 286 block. Best optimal: 3.562379e+01 with 161 iterations
+Fri, 10 Jul 2015 03:22:07  [INFO] Begin the 288 block
+Fri, 10 Jul 2015 03:23:07  [INFO] Finish the 275 block. Best optimal: 6.737396e+01 with 401 iterations
+Fri, 10 Jul 2015 03:23:10  [INFO] Begin the 289 block
+Fri, 10 Jul 2015 03:25:54  [INFO] Finish the 279 block. Best optimal: 4.552243e+01 with 401 iterations
+Fri, 10 Jul 2015 03:25:57  [INFO] Begin the 290 block
+Fri, 10 Jul 2015 03:26:10  [INFO] Finish the 280 block. Best optimal: 6.208055e+01 with 401 iterations
+Fri, 10 Jul 2015 03:26:12  [INFO] Begin the 291 block
+Fri, 10 Jul 2015 03:26:54  [INFO] Finish the 283 block. Best optimal: 5.565912e+01 with 401 iterations
+Fri, 10 Jul 2015 03:26:55  [INFO] Begin the 292 block
+Fri, 10 Jul 2015 03:27:02  [INFO] Finish the 282 block. Best optimal: 3.799054e+01 with 401 iterations
+Fri, 10 Jul 2015 03:27:03  [INFO] Begin the 293 block
+Fri, 10 Jul 2015 03:27:10  [INFO] Finish the 281 block. Best optimal: 4.275428e+01 with 401 iterations
+Fri, 10 Jul 2015 03:27:10  [INFO] Begin the 294 block
+Fri, 10 Jul 2015 03:27:20  [INFO] Finish the 291 block. Best optimal: 3.752536e+01 with 37 iterations
+Fri, 10 Jul 2015 03:27:22  [INFO] Begin the 295 block
+Fri, 10 Jul 2015 03:27:41  [INFO] Finish the 287 block. Best optimal: 3.581442e+01 with 322 iterations
+Fri, 10 Jul 2015 03:27:41  [INFO] Begin the 296 block
+Fri, 10 Jul 2015 03:28:22  [INFO] Finish the 292 block. Best optimal: 4.895820e+01 with 58 iterations
+Fri, 10 Jul 2015 03:28:24  [INFO] Begin the 297 block
+Fri, 10 Jul 2015 03:29:26  [INFO] Finish the 289 block. Best optimal: 3.656358e+01 with 322 iterations
+Fri, 10 Jul 2015 03:29:29  [INFO] Begin the 298 block
+Fri, 10 Jul 2015 03:29:33  [INFO] Finish the 288 block. Best optimal: 4.660386e+01 with 401 iterations
+Fri, 10 Jul 2015 03:29:37  [INFO] Begin the 299 block
+Fri, 10 Jul 2015 03:29:54  [INFO] Finish the 295 block. Best optimal: 3.294365e+01 with 122 iterations
+Fri, 10 Jul 2015 03:29:56  [INFO] Begin the 300 block
+Fri, 10 Jul 2015 03:31:09  [INFO] Finish the 293 block. Best optimal: 3.074378e+01 with 213 iterations
+Fri, 10 Jul 2015 03:31:12  [INFO] Begin the 301 block
+Fri, 10 Jul 2015 03:32:26  [INFO] Finish the 297 block. Best optimal: 4.685264e+01 with 210 iterations
+Fri, 10 Jul 2015 03:32:28  [INFO] Begin the 302 block
+Fri, 10 Jul 2015 03:33:11  [INFO] Finish the 296 block. Best optimal: 3.086943e+01 with 299 iterations
+Fri, 10 Jul 2015 03:33:14  [INFO] Begin the 303 block
+Fri, 10 Jul 2015 03:33:49  [INFO] Finish the 290 block. Best optimal: 4.021148e+01 with 401 iterations
+Fri, 10 Jul 2015 03:33:52  [INFO] Begin the 304 block
+Fri, 10 Jul 2015 03:33:54  [INFO] Finish the 300 block. Best optimal: 4.690858e+01 with 213 iterations
+Fri, 10 Jul 2015 03:33:56  [INFO] Begin the 305 block
+Fri, 10 Jul 2015 03:34:39  [INFO] Finish the 294 block. Best optimal: 3.055887e+01 with 401 iterations
+Fri, 10 Jul 2015 03:34:41  [INFO] Finish the 303 block. Best optimal: 4.747702e+01 with 55 iterations
+Fri, 10 Jul 2015 03:34:42  [INFO] Begin the 306 block
+Fri, 10 Jul 2015 03:34:42  [INFO] Begin the 307 block
+Fri, 10 Jul 2015 03:34:51  [INFO] Finish the 302 block. Best optimal: 5.307136e+01 with 122 iterations
+Fri, 10 Jul 2015 03:34:54  [INFO] Begin the 308 block
+Fri, 10 Jul 2015 03:34:58  [INFO] Finish the 299 block. Best optimal: 3.295311e+01 with 291 iterations
+Fri, 10 Jul 2015 03:35:01  [INFO] Begin the 309 block
+Fri, 10 Jul 2015 03:36:33  [INFO] Finish the 298 block. Best optimal: 3.792231e+01 with 369 iterations
+Fri, 10 Jul 2015 03:36:37  [INFO] Begin the 310 block
+Fri, 10 Jul 2015 03:37:46  [INFO] Finish the 310 block. Best optimal: 4.091179e+01 with 37 iterations
+Fri, 10 Jul 2015 03:37:46  [INFO] Begin the 311 block
+Fri, 10 Jul 2015 03:38:10  [INFO] Finish the 304 block. Best optimal: 5.041222e+01 with 227 iterations
+Fri, 10 Jul 2015 03:38:13  [INFO] Begin the 312 block
+Fri, 10 Jul 2015 03:39:20  [INFO] Finish the 308 block. Best optimal: 4.860128e+01 with 236 iterations
+Fri, 10 Jul 2015 03:39:22  [INFO] Begin the 313 block
+Fri, 10 Jul 2015 03:39:23  [INFO] Finish the 305 block. Best optimal: 4.834492e+01 with 281 iterations
+Fri, 10 Jul 2015 03:39:26  [INFO] Begin the 314 block
+Fri, 10 Jul 2015 03:39:28  [INFO] Finish the 311 block. Best optimal: 4.499042e+01 with 62 iterations
+Fri, 10 Jul 2015 03:39:29  [INFO] Begin the 315 block
+Fri, 10 Jul 2015 03:39:45  [INFO] Finish the 301 block. Best optimal: 5.013674e+01 with 401 iterations
+Fri, 10 Jul 2015 03:39:49  [INFO] Begin the 316 block
+Fri, 10 Jul 2015 03:39:50  [INFO] Finish the 309 block. Best optimal: 4.959347e+01 with 242 iterations
+Fri, 10 Jul 2015 03:39:52  [INFO] Begin the 317 block
+Fri, 10 Jul 2015 03:40:41  [INFO] Finish the 315 block. Best optimal: 4.010241e+01 with 40 iterations
+Fri, 10 Jul 2015 03:40:42  [INFO] Begin the 318 block
+Fri, 10 Jul 2015 03:40:57  [INFO] Finish the 317 block. Best optimal: 3.230208e+01 with 35 iterations
+Fri, 10 Jul 2015 03:40:57  [INFO] Begin the 319 block
+Fri, 10 Jul 2015 03:41:12  [INFO] Finish the 306 block. Best optimal: 4.675178e+01 with 352 iterations
+Fri, 10 Jul 2015 03:41:16  [INFO] Begin the 320 block
+Fri, 10 Jul 2015 03:41:44  [INFO] Finish the 313 block. Best optimal: 3.271916e+01 with 124 iterations
+Fri, 10 Jul 2015 03:41:46  [INFO] Begin the 321 block
+Fri, 10 Jul 2015 03:44:14  [INFO] Finish the 307 block. Best optimal: 9.305993e+01 with 401 iterations
+Fri, 10 Jul 2015 03:44:17  [INFO] Begin the 322 block
+Fri, 10 Jul 2015 03:44:36  [INFO] Finish the 319 block. Best optimal: 2.895438e+01 with 193 iterations
+Fri, 10 Jul 2015 03:44:36  [INFO] Begin the 323 block
+Fri, 10 Jul 2015 03:44:36  [INFO] Finish the 320 block. Best optimal: 2.844706e+01 with 173 iterations
+Fri, 10 Jul 2015 03:44:40  [INFO] Begin the 324 block
+Fri, 10 Jul 2015 03:45:07  [INFO] Finish the 321 block. Best optimal: 4.827996e+01 with 182 iterations
+Fri, 10 Jul 2015 03:45:10  [INFO] Begin the 325 block
+Fri, 10 Jul 2015 03:45:31  [INFO] Finish the 312 block. Best optimal: 3.599150e+01 with 401 iterations
+Fri, 10 Jul 2015 03:45:32  [INFO] Begin the 326 block
+Fri, 10 Jul 2015 03:45:48  [INFO] Finish the 318 block. Best optimal: 3.564465e+01 with 269 iterations
+Fri, 10 Jul 2015 03:45:48  [INFO] Begin the 327 block
+Fri, 10 Jul 2015 03:46:35  [INFO] Finish the 322 block. Best optimal: 3.087148e+01 with 122 iterations
+Fri, 10 Jul 2015 03:46:38  [INFO] Begin the 328 block
+Fri, 10 Jul 2015 03:46:52  [INFO] Finish the 327 block. Best optimal: 4.354034e+01 with 35 iterations
+Fri, 10 Jul 2015 03:46:53  [INFO] Finish the 314 block. Best optimal: 3.734468e+01 with 401 iterations
+Fri, 10 Jul 2015 03:46:54  [INFO] Begin the 329 block
+Fri, 10 Jul 2015 03:46:54  [INFO] Begin the 330 block
+Fri, 10 Jul 2015 03:47:17  [INFO] Finish the 316 block. Best optimal: 2.959852e+01 with 401 iterations
+Fri, 10 Jul 2015 03:47:17  [INFO] Begin the 331 block
+Fri, 10 Jul 2015 03:48:23  [INFO] Finish the 323 block. Best optimal: 4.916254e+01 with 198 iterations
+Fri, 10 Jul 2015 03:48:26  [INFO] Begin the 332 block
+Fri, 10 Jul 2015 03:48:42  [INFO] Finish the 324 block. Best optimal: 3.046537e+01 with 219 iterations
+Fri, 10 Jul 2015 03:48:46  [INFO] Begin the 333 block
+Fri, 10 Jul 2015 03:49:02  [INFO] Finish the 325 block. Best optimal: 4.921423e+01 with 206 iterations
+Fri, 10 Jul 2015 03:49:05  [INFO] Begin the 334 block
+Fri, 10 Jul 2015 03:49:21  [INFO] Finish the 329 block. Best optimal: 6.332890e+01 with 122 iterations
+Fri, 10 Jul 2015 03:49:24  [INFO] Begin the 335 block
+Fri, 10 Jul 2015 03:49:29  [INFO] Finish the 330 block. Best optimal: 5.345561e+01 with 135 iterations
+Fri, 10 Jul 2015 03:49:31  [INFO] Begin the 336 block
+Fri, 10 Jul 2015 03:50:19  [INFO] Finish the 334 block. Best optimal: 4.887195e+01 with 47 iterations
+Fri, 10 Jul 2015 03:50:20  [INFO] Begin the 337 block
+Fri, 10 Jul 2015 03:50:42  [INFO] Finish the 335 block. Best optimal: 6.040834e+01 with 49 iterations
+Fri, 10 Jul 2015 03:50:43  [INFO] Begin the 338 block
+Fri, 10 Jul 2015 03:51:00  [INFO] Finish the 332 block. Best optimal: 5.574211e+01 with 135 iterations
+Fri, 10 Jul 2015 03:51:01  [INFO] Begin the 339 block
+Fri, 10 Jul 2015 03:51:29  [INFO] Finish the 328 block. Best optimal: 6.379278e+01 with 266 iterations
+Fri, 10 Jul 2015 03:51:31  [INFO] Begin the 340 block
+Fri, 10 Jul 2015 03:51:37  [INFO] Finish the 336 block. Best optimal: 8.031322e+01 with 79 iterations
+Fri, 10 Jul 2015 03:51:39  [INFO] Begin the 341 block
+Fri, 10 Jul 2015 03:51:40  [INFO] Finish the 331 block. Best optimal: 4.477576e+01 with 236 iterations
+Fri, 10 Jul 2015 03:51:42  [INFO] Begin the 342 block
+Fri, 10 Jul 2015 03:51:47  [INFO] Finish the 333 block. Best optimal: 4.008089e+01 with 167 iterations
+Fri, 10 Jul 2015 03:51:50  [INFO] Begin the 343 block
+Fri, 10 Jul 2015 03:52:18  [INFO] Finish the 339 block. Best optimal: 3.178102e+01 with 53 iterations
+Fri, 10 Jul 2015 03:52:20  [INFO] Begin the 344 block
+Fri, 10 Jul 2015 03:54:37  [INFO] Finish the 326 block. Best optimal: 5.198241e+01 with 401 iterations
+Fri, 10 Jul 2015 03:54:40  [INFO] Begin the 345 block
+Fri, 10 Jul 2015 03:55:59  [INFO] Finish the 344 block. Best optimal: 3.027453e+01 with 192 iterations
+Fri, 10 Jul 2015 03:55:59  [INFO] Begin the 346 block
+Fri, 10 Jul 2015 03:56:50  [INFO] Finish the 340 block. Best optimal: 3.253292e+01 with 284 iterations
+Fri, 10 Jul 2015 03:56:53  [INFO] Begin the 347 block
+Fri, 10 Jul 2015 03:57:26  [INFO] Finish the 346 block. Best optimal: 4.043600e+01 with 58 iterations
+Fri, 10 Jul 2015 03:57:27  [INFO] Begin the 348 block
+Fri, 10 Jul 2015 03:57:58  [INFO] Finish the 338 block. Best optimal: 4.905689e+01 with 385 iterations
+Fri, 10 Jul 2015 03:58:01  [INFO] Begin the 349 block
+Fri, 10 Jul 2015 03:58:59  [INFO] Finish the 341 block. Best optimal: 3.625252e+01 with 393 iterations
+Fri, 10 Jul 2015 03:59:02  [INFO] Begin the 350 block
+Fri, 10 Jul 2015 03:59:40  [INFO] Finish the 337 block. Best optimal: 5.902470e+01 with 401 iterations
+Fri, 10 Jul 2015 03:59:44  [INFO] Begin the 351 block
+Fri, 10 Jul 2015 04:01:46  [INFO] Finish the 348 block. Best optimal: 2.727383e+01 with 230 iterations
+Fri, 10 Jul 2015 04:01:47  [INFO] Begin the 352 block
+Fri, 10 Jul 2015 04:01:54  [INFO] Finish the 349 block. Best optimal: 5.024425e+01 with 210 iterations
+Fri, 10 Jul 2015 04:01:55  [INFO] Begin the 353 block
+Fri, 10 Jul 2015 04:02:04  [INFO] Finish the 345 block. Best optimal: 2.276474e+01 with 401 iterations
+Fri, 10 Jul 2015 04:02:06  [INFO] Begin the 354 block
+Fri, 10 Jul 2015 04:02:22  [INFO] Finish the 342 block. Best optimal: 3.988279e+01 with 401 iterations
+Fri, 10 Jul 2015 04:02:22  [INFO] Finish the 343 block. Best optimal: 3.584857e+01 with 401 iterations
+Fri, 10 Jul 2015 04:02:25  [INFO] Begin the 355 block
+Fri, 10 Jul 2015 04:02:25  [INFO] Begin the 356 block
+Fri, 10 Jul 2015 04:02:59  [INFO] Finish the 350 block. Best optimal: 5.396155e+01 with 215 iterations
+Fri, 10 Jul 2015 04:03:01  [INFO] Begin the 357 block
+Fri, 10 Jul 2015 04:05:45  [INFO] Finish the 357 block. Best optimal: 3.686201e+01 with 149 iterations
+Fri, 10 Jul 2015 04:05:45  [INFO] Begin the 358 block
+Fri, 10 Jul 2015 04:05:59  [INFO] Finish the 354 block. Best optimal: 5.048954e+01 with 215 iterations
+Fri, 10 Jul 2015 04:06:00  [INFO] Begin the 359 block
+Fri, 10 Jul 2015 04:06:12  [INFO] Finish the 347 block. Best optimal: 3.611455e+01 with 401 iterations
+Fri, 10 Jul 2015 04:06:15  [INFO] Begin the 360 block
+Fri, 10 Jul 2015 04:08:03  [INFO] Finish the 352 block. Best optimal: 5.067589e+01 with 341 iterations
+Fri, 10 Jul 2015 04:08:05  [INFO] Begin the 361 block
+Fri, 10 Jul 2015 04:08:22  [INFO] Finish the 355 block. Best optimal: 4.456770e+01 with 326 iterations
+Fri, 10 Jul 2015 04:08:24  [INFO] Begin the 362 block
+Fri, 10 Jul 2015 04:09:01  [INFO] Finish the 360 block. Best optimal: 3.955003e+01 with 146 iterations
+Fri, 10 Jul 2015 04:09:03  [INFO] Begin the 363 block
+Fri, 10 Jul 2015 04:09:29  [INFO] Finish the 351 block. Best optimal: 5.218447e+01 with 401 iterations
+Fri, 10 Jul 2015 04:09:33  [INFO] Begin the 364 block
+Fri, 10 Jul 2015 04:11:12  [INFO] Finish the 358 block. Best optimal: 4.315720e+01 with 298 iterations
+Fri, 10 Jul 2015 04:11:15  [INFO] Begin the 365 block
+Fri, 10 Jul 2015 04:12:09  [INFO] Finish the 359 block. Best optimal: 4.205568e+01 with 329 iterations
+Fri, 10 Jul 2015 04:12:12  [INFO] Begin the 366 block
+Fri, 10 Jul 2015 04:12:24  [INFO] Finish the 353 block. Best optimal: 5.471629e+01 with 401 iterations
+Fri, 10 Jul 2015 04:12:27  [INFO] Begin the 367 block
+Fri, 10 Jul 2015 04:12:35  [INFO] Finish the 361 block. Best optimal: 3.679269e+01 with 241 iterations
+Fri, 10 Jul 2015 04:12:38  [INFO] Begin the 368 block
+Fri, 10 Jul 2015 04:12:39  [INFO] Finish the 356 block. Best optimal: 9.038179e+01 with 401 iterations
+Fri, 10 Jul 2015 04:12:42  [INFO] Begin the 369 block
+Fri, 10 Jul 2015 04:12:58  [INFO] Finish the 363 block. Best optimal: 3.879582e+01 with 207 iterations
+Fri, 10 Jul 2015 04:13:01  [INFO] Begin the 370 block
+Fri, 10 Jul 2015 04:14:46  [INFO] Finish the 368 block. Best optimal: 2.989917e+01 with 114 iterations
+Fri, 10 Jul 2015 04:14:47  [INFO] Begin the 371 block
+Fri, 10 Jul 2015 04:15:43  [INFO] Finish the 362 block. Best optimal: 3.033505e+01 with 401 iterations
+Fri, 10 Jul 2015 04:15:46  [INFO] Begin the 372 block
+Fri, 10 Jul 2015 04:16:58  [INFO] Finish the 364 block. Best optimal: 4.311678e+01 with 401 iterations
+Fri, 10 Jul 2015 04:17:00  [INFO] Finish the 367 block. Best optimal: 3.127491e+01 with 253 iterations
+Fri, 10 Jul 2015 04:17:02  [INFO] Begin the 373 block
+Fri, 10 Jul 2015 04:17:02  [INFO] Begin the 374 block
+Fri, 10 Jul 2015 04:17:37  [INFO] Finish the 369 block. Best optimal: 3.159080e+01 with 265 iterations
+Fri, 10 Jul 2015 04:17:39  [INFO] Begin the 375 block
+Fri, 10 Jul 2015 04:17:51  [INFO] Finish the 365 block. Best optimal: 2.468915e+01 with 356 iterations
+Fri, 10 Jul 2015 04:17:54  [INFO] Begin the 376 block
+Fri, 10 Jul 2015 04:18:44  [INFO] Finish the 371 block. Best optimal: 2.577548e+01 with 220 iterations
+Fri, 10 Jul 2015 04:18:46  [INFO] Begin the 377 block
+Fri, 10 Jul 2015 04:18:46  [INFO] Finish the 366 block. Best optimal: 2.867976e+01 with 361 iterations
+Fri, 10 Jul 2015 04:18:50  [INFO] Begin the 378 block
+Fri, 10 Jul 2015 04:19:43  [INFO] Finish the 372 block. Best optimal: 2.762217e+01 with 216 iterations
+Fri, 10 Jul 2015 04:19:46  [INFO] Begin the 379 block
+Fri, 10 Jul 2015 04:19:53  [INFO] Finish the 378 block. Best optimal: 5.945918e+01 with 37 iterations
+Fri, 10 Jul 2015 04:19:54  [INFO] Begin the 380 block
+Fri, 10 Jul 2015 04:20:48  [INFO] Finish the 375 block. Best optimal: 6.584687e+01 with 169 iterations
+Fri, 10 Jul 2015 04:20:50  [INFO] Begin the 381 block
+Fri, 10 Jul 2015 04:22:05  [INFO] Finish the 381 block. Best optimal: 4.967562e+01 with 46 iterations
+Fri, 10 Jul 2015 04:22:05  [INFO] Begin the 382 block
+Fri, 10 Jul 2015 04:22:07  [INFO] Finish the 374 block. Best optimal: 3.580703e+01 with 270 iterations
+Fri, 10 Jul 2015 04:22:09  [INFO] Begin the 383 block
+Fri, 10 Jul 2015 04:22:11  [INFO] Finish the 377 block. Best optimal: 5.213781e+01 with 184 iterations
+Fri, 10 Jul 2015 04:22:13  [INFO] Begin the 384 block
+Fri, 10 Jul 2015 04:22:22  [INFO] Finish the 376 block. Best optimal: 5.838844e+01 with 238 iterations
+Fri, 10 Jul 2015 04:22:24  [INFO] Begin the 385 block
+Fri, 10 Jul 2015 04:23:22  [INFO] Finish the 384 block. Best optimal: 4.149753e+01 with 40 iterations
+Fri, 10 Jul 2015 04:23:25  [INFO] Begin the 386 block
+Fri, 10 Jul 2015 04:23:29  [INFO] Finish the 383 block. Best optimal: 5.340363e+01 with 52 iterations
+Fri, 10 Jul 2015 04:23:29  [INFO] Begin the 387 block
+Fri, 10 Jul 2015 04:23:46  [INFO] Finish the 370 block. Best optimal: 3.324489e+01 with 401 iterations
+Fri, 10 Jul 2015 04:23:48  [INFO] Begin the 388 block
+Fri, 10 Jul 2015 04:24:01  [INFO] Finish the 373 block. Best optimal: 3.805598e+01 with 377 iterations
+Fri, 10 Jul 2015 04:24:02  [INFO] Begin the 389 block
+Fri, 10 Jul 2015 04:24:03  [INFO] Finish the 385 block. Best optimal: 8.812807e+01 with 59 iterations
+Fri, 10 Jul 2015 04:24:06  [INFO] Begin the 390 block
+Fri, 10 Jul 2015 04:24:33  [INFO] Finish the 386 block. Best optimal: 3.754644e+01 with 44 iterations
+Fri, 10 Jul 2015 04:24:37  [INFO] Begin the 391 block
+Fri, 10 Jul 2015 04:25:21  [INFO] Finish the 380 block. Best optimal: 4.898392e+01 with 286 iterations
+Fri, 10 Jul 2015 04:25:22  [INFO] Begin the 392 block
+Fri, 10 Jul 2015 04:27:16  [INFO] Finish the 387 block. Best optimal: 3.576940e+01 with 200 iterations
+Fri, 10 Jul 2015 04:27:19  [INFO] Begin the 393 block
+Fri, 10 Jul 2015 04:27:38  [INFO] Finish the 388 block. Best optimal: 2.901582e+01 with 207 iterations
+Fri, 10 Jul 2015 04:27:41  [INFO] Begin the 394 block
+Fri, 10 Jul 2015 04:27:56  [INFO] Finish the 389 block. Best optimal: 2.752135e+01 with 210 iterations
+Fri, 10 Jul 2015 04:28:00  [INFO] Begin the 395 block
+Fri, 10 Jul 2015 04:28:01  [INFO] Finish the 392 block. Best optimal: 2.261275e+01 with 142 iterations
+Fri, 10 Jul 2015 04:28:03  [INFO] Begin the 396 block
+Fri, 10 Jul 2015 04:28:11  [INFO] Finish the 379 block. Best optimal: 5.366655e+01 with 401 iterations
+Fri, 10 Jul 2015 04:28:11  [INFO] Begin the 397 block
+Fri, 10 Jul 2015 04:28:27  [INFO] Finish the 391 block. Best optimal: 2.754621e+01 with 203 iterations
+Fri, 10 Jul 2015 04:28:29  [INFO] Begin the 398 block
+Fri, 10 Jul 2015 04:28:30  [INFO] Finish the 390 block. Best optimal: 4.830602e+01 with 239 iterations
+Fri, 10 Jul 2015 04:28:33  [INFO] Begin the 399 block
+Fri, 10 Jul 2015 04:29:29  [INFO] Finish the 399 block. Best optimal: 2.300002e+01 with 32 iterations
+Fri, 10 Jul 2015 04:29:30  [INFO] Finish the 382 block. Best optimal: 4.575298e+01 with 401 iterations
+Fri, 10 Jul 2015 04:29:30  [INFO] Begin the 400 block
+Fri, 10 Jul 2015 04:29:30  [INFO] Begin the 401 block
+Fri, 10 Jul 2015 04:30:24  [INFO] Finish the 396 block. Best optimal: 2.758071e+01 with 121 iterations
+Fri, 10 Jul 2015 04:30:26  [INFO] Begin the 402 block
+Fri, 10 Jul 2015 04:30:37  [INFO] Finish the 401 block. Best optimal: 4.898378e+01 with 39 iterations
+Fri, 10 Jul 2015 04:30:38  [INFO] Begin the 403 block
+Fri, 10 Jul 2015 04:30:46  [INFO] Finish the 394 block. Best optimal: 3.052339e+01 with 163 iterations
+Fri, 10 Jul 2015 04:30:49  [INFO] Begin the 404 block
+Fri, 10 Jul 2015 04:31:32  [INFO] Finish the 402 block. Best optimal: 6.005934e+01 with 40 iterations
+Fri, 10 Jul 2015 04:31:33  [INFO] Begin the 405 block
+Fri, 10 Jul 2015 04:31:38  [INFO] Finish the 395 block. Best optimal: 2.169471e+01 with 199 iterations
+Fri, 10 Jul 2015 04:31:41  [INFO] Begin the 406 block
+Fri, 10 Jul 2015 04:31:56  [INFO] Finish the 393 block. Best optimal: 2.738179e+01 with 259 iterations
+Fri, 10 Jul 2015 04:32:00  [INFO] Begin the 407 block
+Fri, 10 Jul 2015 04:32:20  [INFO] Finish the 403 block. Best optimal: 5.584385e+01 with 90 iterations
+Fri, 10 Jul 2015 04:32:22  [INFO] Begin the 408 block
+Fri, 10 Jul 2015 04:32:23  [INFO] Finish the 400 block. Best optimal: 5.614014e+01 with 159 iterations
+Fri, 10 Jul 2015 04:32:26  [INFO] Begin the 409 block
+Fri, 10 Jul 2015 04:33:14  [INFO] Finish the 407 block. Best optimal: 5.620761e+01 with 49 iterations
+Fri, 10 Jul 2015 04:33:15  [INFO] Begin the 410 block
+Fri, 10 Jul 2015 04:33:34  [INFO] Finish the 398 block. Best optimal: 3.357493e+01 with 277 iterations
+Fri, 10 Jul 2015 04:33:37  [INFO] Begin the 411 block
+Fri, 10 Jul 2015 04:33:43  [INFO] Finish the 406 block. Best optimal: 4.709702e+01 with 109 iterations
+Fri, 10 Jul 2015 04:33:45  [INFO] Begin the 412 block
+Fri, 10 Jul 2015 04:34:46  [INFO] Finish the 397 block. Best optimal: 3.327514e+01 with 362 iterations
+Fri, 10 Jul 2015 04:34:49  [INFO] Begin the 413 block
+Fri, 10 Jul 2015 04:34:50  [INFO] Finish the 404 block. Best optimal: 5.765019e+01 with 217 iterations
+Fri, 10 Jul 2015 04:34:51  [INFO] Finish the 408 block. Best optimal: 4.096007e+01 with 133 iterations
+Fri, 10 Jul 2015 04:34:53  [INFO] Begin the 414 block
+Fri, 10 Jul 2015 04:34:53  [INFO] Begin the 415 block
+Fri, 10 Jul 2015 04:35:08  [INFO] Finish the 405 block. Best optimal: 5.090244e+01 with 194 iterations
+Fri, 10 Jul 2015 04:35:12  [INFO] Begin the 416 block
+Fri, 10 Jul 2015 04:36:12  [INFO] Finish the 416 block. Best optimal: 4.658091e+01 with 34 iterations
+Fri, 10 Jul 2015 04:36:12  [INFO] Begin the 417 block
+Fri, 10 Jul 2015 04:38:07  [INFO] Finish the 410 block. Best optimal: 4.151491e+01 with 261 iterations
+Fri, 10 Jul 2015 04:38:10  [INFO] Begin the 418 block
+Fri, 10 Jul 2015 04:38:19  [INFO] Finish the 412 block. Best optimal: 5.341249e+01 with 250 iterations
+Fri, 10 Jul 2015 04:38:21  [INFO] Begin the 419 block
+Fri, 10 Jul 2015 04:38:38  [INFO] Finish the 414 block. Best optimal: 3.623035e+01 with 199 iterations
+Fri, 10 Jul 2015 04:38:40  [INFO] Begin the 420 block
+Fri, 10 Jul 2015 04:38:48  [INFO] Finish the 413 block. Best optimal: 3.282262e+01 with 207 iterations
+Fri, 10 Jul 2015 04:38:51  [INFO] Begin the 421 block
+Fri, 10 Jul 2015 04:39:04  [INFO] Finish the 417 block. Best optimal: 2.833384e+01 with 148 iterations
+Fri, 10 Jul 2015 04:39:06  [INFO] Begin the 422 block
+Fri, 10 Jul 2015 04:41:05  [INFO] Finish the 411 block. Best optimal: 2.974342e+01 with 401 iterations
+Fri, 10 Jul 2015 04:41:08  [INFO] Begin the 423 block
+Fri, 10 Jul 2015 04:42:09  [INFO] Finish the 409 block. Best optimal: 8.391877e+01 with 401 iterations
+Fri, 10 Jul 2015 04:42:12  [INFO] Begin the 424 block
+Fri, 10 Jul 2015 04:42:26  [INFO] Finish the 422 block. Best optimal: 2.616449e+01 with 178 iterations
+Fri, 10 Jul 2015 04:42:27  [INFO] Begin the 425 block
+Fri, 10 Jul 2015 04:43:05  [INFO] Finish the 419 block. Best optimal: 3.509259e+01 with 254 iterations
+Fri, 10 Jul 2015 04:43:07  [INFO] Begin the 426 block
+Fri, 10 Jul 2015 04:43:08  [INFO] Finish the 418 block. Best optimal: 2.800947e+01 with 269 iterations
+Fri, 10 Jul 2015 04:43:11  [INFO] Begin the 427 block
+Fri, 10 Jul 2015 04:43:20  [INFO] Finish the 421 block. Best optimal: 3.437053e+01 with 244 iterations
+Fri, 10 Jul 2015 04:43:22  [INFO] Begin the 428 block
+Fri, 10 Jul 2015 04:43:33  [INFO] Finish the 415 block. Best optimal: 8.641741e+01 with 401 iterations
+Fri, 10 Jul 2015 04:43:37  [INFO] Begin the 429 block
+Fri, 10 Jul 2015 04:43:50  [INFO] Finish the 425 block. Best optimal: 7.039191e+01 with 60 iterations
+Fri, 10 Jul 2015 04:43:52  [INFO] Begin the 430 block
+Fri, 10 Jul 2015 04:44:20  [INFO] Finish the 423 block. Best optimal: 3.009460e+01 with 174 iterations
+Fri, 10 Jul 2015 04:44:22  [INFO] Begin the 431 block
+Fri, 10 Jul 2015 04:44:24  [INFO] Finish the 426 block. Best optimal: 7.203545e+01 with 47 iterations
+Fri, 10 Jul 2015 04:44:26  [INFO] Begin the 432 block
+Fri, 10 Jul 2015 04:45:46  [INFO] Finish the 424 block. Best optimal: 4.189768e+01 with 195 iterations
+Fri, 10 Jul 2015 04:45:47  [INFO] Finish the 428 block. Best optimal: 7.400520e+01 with 129 iterations
+Fri, 10 Jul 2015 04:45:49  [INFO] Begin the 433 block
+Fri, 10 Jul 2015 04:45:49  [INFO] Begin the 434 block
+Fri, 10 Jul 2015 04:45:52  [INFO] Finish the 432 block. Best optimal: 4.835451e+01 with 48 iterations
+Fri, 10 Jul 2015 04:45:53  [INFO] Begin the 435 block
+Fri, 10 Jul 2015 04:46:17  [INFO] Finish the 431 block. Best optimal: 5.879279e+01 with 101 iterations
+Fri, 10 Jul 2015 04:46:19  [INFO] Begin the 436 block
+Fri, 10 Jul 2015 04:46:20  [INFO] Finish the 427 block. Best optimal: 5.468439e+01 with 172 iterations
+Fri, 10 Jul 2015 04:46:23  [INFO] Begin the 437 block
+Fri, 10 Jul 2015 04:46:31  [INFO] Finish the 429 block. Best optimal: 5.494598e+01 with 158 iterations
+Fri, 10 Jul 2015 04:46:34  [INFO] Begin the 438 block
+Fri, 10 Jul 2015 04:46:59  [INFO] Finish the 434 block. Best optimal: 4.747844e+01 with 45 iterations
+Fri, 10 Jul 2015 04:47:01  [INFO] Begin the 439 block
+Fri, 10 Jul 2015 04:48:01  [INFO] Finish the 438 block. Best optimal: 4.645552e+01 with 48 iterations
+Fri, 10 Jul 2015 04:48:02  [INFO] Begin the 440 block
+Fri, 10 Jul 2015 04:48:11  [INFO] Finish the 435 block. Best optimal: 3.837156e+01 with 121 iterations
+Fri, 10 Jul 2015 04:48:13  [INFO] Begin the 441 block
+Fri, 10 Jul 2015 04:49:06  [INFO] Finish the 420 block. Best optimal: 5.447374e+01 with 401 iterations
+Fri, 10 Jul 2015 04:49:09  [INFO] Begin the 442 block
+Fri, 10 Jul 2015 04:50:11  [INFO] Finish the 436 block. Best optimal: 4.723032e+01 with 211 iterations
+Fri, 10 Jul 2015 04:50:13  [INFO] Begin the 443 block
+Fri, 10 Jul 2015 04:51:14  [INFO] Finish the 433 block. Best optimal: 3.508968e+01 with 297 iterations
+Fri, 10 Jul 2015 04:51:16  [INFO] Begin the 444 block
+Fri, 10 Jul 2015 04:51:52  [INFO] Finish the 440 block. Best optimal: 3.021889e+01 with 210 iterations
+Fri, 10 Jul 2015 04:51:54  [INFO] Begin the 445 block
+Fri, 10 Jul 2015 04:52:21  [INFO] Finish the 437 block. Best optimal: 3.460819e+01 with 326 iterations
+Fri, 10 Jul 2015 04:52:24  [INFO] Begin the 446 block
+Fri, 10 Jul 2015 04:52:52  [INFO] Finish the 441 block. Best optimal: 4.059532e+01 with 251 iterations
+Fri, 10 Jul 2015 04:52:54  [INFO] Begin the 447 block
+Fri, 10 Jul 2015 04:53:55  [INFO] Finish the 447 block. Best optimal: 3.130473e+01 with 34 iterations
+Fri, 10 Jul 2015 04:53:55  [INFO] Begin the 448 block
+Fri, 10 Jul 2015 04:54:15  [INFO] Finish the 439 block. Best optimal: 3.246699e+01 with 401 iterations
+Fri, 10 Jul 2015 04:54:17  [INFO] Begin the 449 block
+Fri, 10 Jul 2015 04:54:42  [INFO] Finish the 430 block. Best optimal: 4.678826e+01 with 401 iterations
+Fri, 10 Jul 2015 04:54:44  [INFO] Begin the 450 block
+Fri, 10 Jul 2015 04:55:21  [INFO] Finish the 444 block. Best optimal: 3.366244e+01 with 214 iterations
+Fri, 10 Jul 2015 04:55:22  [INFO] Begin the 451 block
+Fri, 10 Jul 2015 04:56:24  [INFO] Finish the 442 block. Best optimal: 3.638948e+01 with 401 iterations
+Fri, 10 Jul 2015 04:56:26  [INFO] Begin the 452 block
+Fri, 10 Jul 2015 04:56:45  [INFO] Finish the 446 block. Best optimal: 2.754420e+01 with 238 iterations
+Fri, 10 Jul 2015 04:56:45  [INFO] Begin the 453 block
+Fri, 10 Jul 2015 04:57:16  [INFO] Finish the 448 block. Best optimal: 2.973858e+01 with 177 iterations
+Fri, 10 Jul 2015 04:57:19  [INFO] Begin the 454 block
+Fri, 10 Jul 2015 04:59:45  [INFO] Finish the 451 block. Best optimal: 6.199966e+01 with 215 iterations
+Fri, 10 Jul 2015 04:59:47  [INFO] Begin the 455 block
+Fri, 10 Jul 2015 04:59:58  [INFO] Finish the 443 block. Best optimal: 2.338482e+01 with 401 iterations
+Fri, 10 Jul 2015 04:59:58  [INFO] Begin the 456 block
+Fri, 10 Jul 2015 05:00:07  [INFO] Finish the 452 block. Best optimal: 5.170894e+01 with 199 iterations
+Fri, 10 Jul 2015 05:00:09  [INFO] Begin the 457 block
+Fri, 10 Jul 2015 05:00:26  [INFO] Finish the 453 block. Best optimal: 6.452841e+01 with 195 iterations
+Fri, 10 Jul 2015 05:00:28  [INFO] Begin the 458 block
+Fri, 10 Jul 2015 05:00:36  [INFO] Finish the 445 block. Best optimal: 4.206921e+01 with 401 iterations
+Fri, 10 Jul 2015 05:00:36  [INFO] Begin the 459 block
+Fri, 10 Jul 2015 05:01:10  [INFO] Finish the 449 block. Best optimal: 2.731716e+01 with 379 iterations
+Fri, 10 Jul 2015 05:01:13  [INFO] Begin the 460 block
+Fri, 10 Jul 2015 05:01:52  [INFO] Finish the 454 block. Best optimal: 4.874393e+01 with 246 iterations
+Fri, 10 Jul 2015 05:01:55  [INFO] Begin the 461 block
+Fri, 10 Jul 2015 05:02:01  [INFO] Finish the 458 block. Best optimal: 7.194884e+01 with 53 iterations
+Fri, 10 Jul 2015 05:02:02  [INFO] Begin the 462 block
+Fri, 10 Jul 2015 05:02:07  [INFO] Finish the 450 block. Best optimal: 5.386712e+01 with 401 iterations
+Fri, 10 Jul 2015 05:02:10  [INFO] Begin the 463 block
+Fri, 10 Jul 2015 05:02:30  [INFO] Finish the 459 block. Best optimal: 4.499182e+01 with 100 iterations
+Fri, 10 Jul 2015 05:02:31  [INFO] Begin the 464 block
+Fri, 10 Jul 2015 05:03:00  [INFO] Finish the 461 block. Best optimal: 3.477084e+01 with 41 iterations
+Fri, 10 Jul 2015 05:03:02  [INFO] Begin the 465 block
+Fri, 10 Jul 2015 05:03:52  [INFO] Finish the 456 block. Best optimal: 6.476483e+01 with 206 iterations
+Fri, 10 Jul 2015 05:03:55  [INFO] Begin the 466 block
+Fri, 10 Jul 2015 05:04:30  [INFO] Finish the 462 block. Best optimal: 6.386150e+01 with 95 iterations
+Fri, 10 Jul 2015 05:04:32  [INFO] Begin the 467 block
+Fri, 10 Jul 2015 05:06:36  [INFO] Finish the 455 block. Best optimal: 5.893434e+01 with 376 iterations
+Fri, 10 Jul 2015 05:06:39  [INFO] Begin the 468 block
+Fri, 10 Jul 2015 05:07:03  [INFO] Finish the 460 block. Best optimal: 3.801462e+01 with 310 iterations
+Fri, 10 Jul 2015 05:07:06  [INFO] Begin the 469 block
+Fri, 10 Jul 2015 05:07:29  [INFO] Finish the 457 block. Best optimal: 4.866779e+01 with 401 iterations
+Fri, 10 Jul 2015 05:07:32  [INFO] Begin the 470 block
+Fri, 10 Jul 2015 05:07:46  [INFO] Finish the 468 block. Best optimal: 4.385944e+01 with 39 iterations
+Fri, 10 Jul 2015 05:07:47  [INFO] Begin the 471 block
+Fri, 10 Jul 2015 05:09:15  [INFO] Finish the 463 block. Best optimal: 3.701883e+01 with 401 iterations
+Fri, 10 Jul 2015 05:09:18  [INFO] Begin the 472 block
+Fri, 10 Jul 2015 05:09:33  [INFO] Finish the 464 block. Best optimal: 2.487022e+01 with 380 iterations
+Fri, 10 Jul 2015 05:09:36  [INFO] Begin the 473 block
+Fri, 10 Jul 2015 05:09:39  [INFO] Finish the 471 block. Best optimal: 3.345671e+01 with 91 iterations
+Fri, 10 Jul 2015 05:09:40  [INFO] Begin the 474 block
+Fri, 10 Jul 2015 05:10:18  [INFO] Finish the 465 block. Best optimal: 2.831766e+01 with 401 iterations
+Fri, 10 Jul 2015 05:10:22  [INFO] Begin the 475 block
+Fri, 10 Jul 2015 05:10:35  [INFO] Finish the 469 block. Best optimal: 3.001761e+01 with 185 iterations
+Fri, 10 Jul 2015 05:10:37  [INFO] Begin the 476 block
+Fri, 10 Jul 2015 05:10:54  [INFO] Finish the 470 block. Best optimal: 2.372235e+01 with 181 iterations
+Fri, 10 Jul 2015 05:10:56  [INFO] Begin the 477 block
+Fri, 10 Jul 2015 05:11:01  [INFO] Finish the 467 block. Best optimal: 2.533334e+01 with 351 iterations
+Fri, 10 Jul 2015 05:11:04  [INFO] Begin the 478 block
+Fri, 10 Jul 2015 05:11:12  [INFO] Finish the 466 block. Best optimal: 2.592951e+01 with 401 iterations
+Fri, 10 Jul 2015 05:11:15  [INFO] Begin the 479 block
+Fri, 10 Jul 2015 05:11:59  [INFO] Finish the 477 block. Best optimal: 6.628809e+01 with 39 iterations
+Fri, 10 Jul 2015 05:12:00  [INFO] Begin the 480 block
+Fri, 10 Jul 2015 05:12:38  [INFO] Finish the 479 block. Best optimal: 6.174951e+01 with 55 iterations
+Fri, 10 Jul 2015 05:12:39  [INFO] Begin the 481 block
+Fri, 10 Jul 2015 05:12:45  [INFO] Finish the 476 block. Best optimal: 6.270849e+01 with 80 iterations
+Fri, 10 Jul 2015 05:12:46  [INFO] Begin the 482 block
+Fri, 10 Jul 2015 05:13:31  [INFO] Finish the 480 block. Best optimal: 5.621708e+01 with 53 iterations
+Fri, 10 Jul 2015 05:13:32  [INFO] Begin the 483 block
+Fri, 10 Jul 2015 05:13:42  [INFO] Finish the 475 block. Best optimal: 6.158665e+01 with 177 iterations
+Fri, 10 Jul 2015 05:13:44  [INFO] Begin the 484 block
+Fri, 10 Jul 2015 05:14:38  [INFO] Finish the 474 block. Best optimal: 3.900503e+01 with 266 iterations
+Fri, 10 Jul 2015 05:14:40  [INFO] Begin the 485 block
+Fri, 10 Jul 2015 05:14:47  [INFO] Finish the 484 block. Best optimal: 4.307552e+01 with 37 iterations
+Fri, 10 Jul 2015 05:14:48  [INFO] Begin the 486 block
+Fri, 10 Jul 2015 05:14:49  [INFO] Finish the 473 block. Best optimal: 2.815529e+01 with 278 iterations
+Fri, 10 Jul 2015 05:14:51  [INFO] Begin the 487 block
+Fri, 10 Jul 2015 05:15:12  [INFO] Finish the 481 block. Best optimal: 5.102097e+01 with 136 iterations
+Fri, 10 Jul 2015 05:15:14  [INFO] Begin the 488 block
+Fri, 10 Jul 2015 05:15:46  [INFO] Finish the 482 block. Best optimal: 4.667302e+01 with 161 iterations
+Fri, 10 Jul 2015 05:15:46  [INFO] Finish the 483 block. Best optimal: 4.181507e+01 with 123 iterations
+Fri, 10 Jul 2015 05:15:48  [INFO] Begin the 489 block
+Fri, 10 Jul 2015 05:15:48  [INFO] Begin the 490 block
+Fri, 10 Jul 2015 05:16:33  [INFO] Finish the 472 block. Best optimal: 2.999964e+01 with 401 iterations
+Fri, 10 Jul 2015 05:16:37  [INFO] Begin the 491 block
+Fri, 10 Jul 2015 05:17:34  [INFO] Finish the 485 block. Best optimal: 6.432454e+01 with 157 iterations
+Fri, 10 Jul 2015 05:17:36  [INFO] Begin the 492 block
+Fri, 10 Jul 2015 05:19:13  [INFO] Finish the 490 block. Best optimal: 3.505149e+01 with 183 iterations
+Fri, 10 Jul 2015 05:19:13  [INFO] Finish the 491 block. Best optimal: 3.690776e+01 with 130 iterations
+Fri, 10 Jul 2015 05:19:14  [INFO] Begin the 493 block
+Fri, 10 Jul 2015 05:19:14  [INFO] Begin the 494 block
+Fri, 10 Jul 2015 05:19:28  [INFO] Finish the 492 block. Best optimal: 4.667981e+01 with 77 iterations
+Fri, 10 Jul 2015 05:19:29  [INFO] Begin the 495 block
+Fri, 10 Jul 2015 05:20:51  [INFO] Finish the 478 block. Best optimal: 6.315565e+01 with 401 iterations
+Fri, 10 Jul 2015 05:20:54  [INFO] Begin the 496 block
+Fri, 10 Jul 2015 05:21:22  [INFO] Finish the 488 block. Best optimal: 2.885849e+01 with 339 iterations
+Fri, 10 Jul 2015 05:21:25  [INFO] Begin the 497 block
+Fri, 10 Jul 2015 05:21:49  [INFO] Finish the 489 block. Best optimal: 3.093441e+01 with 337 iterations
+Fri, 10 Jul 2015 05:21:51  [INFO] Begin the 498 block
+Fri, 10 Jul 2015 05:22:08  [INFO] Finish the 494 block. Best optimal: 2.806028e+01 with 154 iterations
+Fri, 10 Jul 2015 05:22:08  [INFO] Finish the 495 block. Best optimal: 2.676380e+01 with 143 iterations
+Fri, 10 Jul 2015 05:22:09  [INFO] Begin the 499 block
+Fri, 10 Jul 2015 05:23:23  [INFO] Finish the 487 block. Best optimal: 9.347208e+01 with 401 iterations
+Fri, 10 Jul 2015 05:23:36  [INFO] Finish the 493 block. Best optimal: 3.295975e+01 with 245 iterations
+Fri, 10 Jul 2015 05:24:41  [INFO] Finish the 486 block. Best optimal: 5.718871e+01 with 401 iterations
+Fri, 10 Jul 2015 05:25:08  [INFO] Finish the 498 block. Best optimal: 4.192948e+01 with 191 iterations
+Fri, 10 Jul 2015 05:25:43  [INFO] Finish the 497 block. Best optimal: 3.107157e+01 with 259 iterations
+Fri, 10 Jul 2015 05:26:38  [INFO] Finish the 499 block. Best optimal: 3.075014e+01 with 269 iterations
+Fri, 10 Jul 2015 05:28:05  [INFO] Finish the 496 block. Best optimal: 6.297610e+01 with 401 iterations
+Fri, 10 Jul 2015 05:28:05  [INFO] All blocks have Finished!!!!!!!

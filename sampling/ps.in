@@ -1,0 +1,30 @@
+PSUADE
+INPUT
+   dimension = 5
+   variable 1 X1 =  -2.0 2.0
+   variable 2 X2 =  -2.0 2.0
+   variable 3 X2 =  -2.0 2.0
+   variable 4 X2 =  -2.0 2.0
+   variable 5 X2 =  -2.0 2.0
+   
+END
+OUTPUT
+   dimension = 1
+   variable 1 Y1
+END
+METHOD
+#  use_input_pdfs
+   sampling = LH
+   num_samples = 3000
+END
+APPLICATION
+   driver = ./run_test.sh
+#  gen_inputfile_only
+END
+ANALYSIS
+   analyzer output_id  = 1
+#   analyzer rstype  = MARS
+#   analyzer threshold  = 0.00001
+   diagnostics 1
+END
+END
