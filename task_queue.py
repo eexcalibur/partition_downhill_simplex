@@ -34,6 +34,7 @@ class task_queue(object):
 			if pool_res.get_avail_cores() and pool_res.ass_jobs_num < config.windows_size:
 				pool_res.ass_jobs_num = pool_res.ass_jobs_num + 1
 				#job_scheduler.run_model(b, work_id, pool_res.avail_res)
+				self.queue[id].id=id
 				self.queue[id].set_subrange(id)
 				job_scheduler.run_model(id, pool_res.avail_res)
 				logging.info("Begin the %d block" % id)
@@ -49,8 +50,7 @@ class task_queue(object):
 	def write_hist(self):
 		fp_fithist = file("fit_hist.txt", "wa")
 		for b in self.queue:
-			numpy.savetxt(fp_fithist, [b.final_optimal])
+			numpy.savetxt(fp_fithist, numpy.transpose([[b.id], [b.final_optimal]]))
 		fp_fithist.close();
 
-		
-
+	

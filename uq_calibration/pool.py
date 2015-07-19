@@ -1,4 +1,5 @@
 import config
+import logging
 
 class Pool(object):
 	"""docstring for Pool"""
@@ -50,13 +51,13 @@ class Pool(object):
 		if (self.num_avail_res >= config.core_per_host):
 			for k,v in self.pool_nodes.items():
 				if (v != 0 ):
-					if (found_cores + v < config.process_per_num) :
+					if (found_cores + v < config.process_per_case) :
 						found_cores += v
 						self.avail_res[k] = v
 						self.pool_nodes[k] = 0
 					else :
-						self.avail_res[k] = config.process_per_num - found_cores
-						self.pool_nodes[k] = config.core_per_host - self.avail_res[k]
+						self.avail_res[k] = config.process_per_case - found_cores
+						self.pool_nodes[k] = self.pool_nodes[k] - self.avail_res[k]
 						#print self.pool_nodes
 						#print self.avail_res
 						return True

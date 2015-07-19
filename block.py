@@ -10,7 +10,7 @@ class block(object):
 		self.final_optimal = float("inf")
 		self.current_optimal = float("inf")
 		self.iteration_nums = 0
-		self.status = 0 # 0=initial 1=running 2=finishing
+		self.id = 0 # 0=initial 1=running 2=finishing
 
 	#create init range
 	def set_subrange(self, id): 

@@ -9,7 +9,7 @@
 
 #Strict options
 LDFLAGS=-g
-CFLAGS=-Wextra  -pedantic -g
+CFLAGS= -g
 #Lenient: add/remove any compilation or linking flags that you feel are necessary or not.
 # LDFLAGS=
 # CFLAGS=
@@ -20,7 +20,7 @@ DIROK=dirOK.o
 
 #Lists all executable, used by the "all" and "clean" rules.
 EXECS=exampletiming exampleexperiment test1
-
+CC=mpicc
 all: $(EXECS)
 
 #Add here any rules needed for your own experiments

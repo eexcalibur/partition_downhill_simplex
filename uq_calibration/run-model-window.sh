@@ -12,4 +12,4 @@ cp $templete_dir/test1 run/case$2/algorithms/$algorithms_method/
 
 #run model
 cd run/case$2/algorithms/$algorithms_method
-./downhill_simplex
+./run_downhill.sh

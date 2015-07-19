@@ -16,6 +16,7 @@ class Scheduler(object):
 		fp_host.close()
 
 		#print "work"+str(work_id)+" running on "+str(used_res.keys())
+		logging.debug("work"+str(work_id)+" running on "+str(used_res.keys()))
 		run_model_str="./uq_calibration/run-model-window.sh CSM_work"+str(work_id)+" "+str(work_id)
 		run_model_str += " &"
 		#print run_model_str

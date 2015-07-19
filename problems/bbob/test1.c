@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <mpi.h>
 
 #include "bbobStructures.h"
 #include "benchmarksdeclare.h"
@@ -14,6 +15,7 @@ int main(int argc, char **argv)
 	isInitDone = 0;
 	trialid = 3;
 
+	MPI_Init(&argc, &argv);
 	out = fopen("res_data", "w");
 
 	DIM = argc - 1;
@@ -33,6 +35,7 @@ int main(int argc, char **argv)
 	fprintf(out,"%e\n",res.Fval);
 
 	fclose(out);
+	MPI_Finalize();
 
   	return 0;	
 }

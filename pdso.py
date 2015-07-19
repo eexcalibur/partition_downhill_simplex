@@ -8,14 +8,14 @@ import uq_calibration.config as config
 
 
 def init_logging():
-	logging.basicConfig(level=logging.INFO,
+	logging.basicConfig(level=logging.DEBUG,
                 format='%(asctime)s  [%(levelname)s] %(message)s',
                 datefmt='%a, %d %b %Y %H:%M:%S',
                 filename='pdso.log',
                 filemode='w')
 
 	console = logging.StreamHandler()
-	console.setLevel(logging.INFO)
+	console.setLevel(logging.DEBUG)
 	formatter = logging.Formatter('%(asctime)s  [%(levelname)s] %(message)s',
 								  '%a, %d %b %Y %H:%M:%S')
 	console.setFormatter(formatter)
@@ -56,8 +56,6 @@ if __name__ == '__main__':
 	task_q = task_queue.task_queue()
 	partition_range(task_q, init_range, 1,2)
 
-
-	#while (len(task_q.queue) != 0):
 	task_q.start_tasks()
 	task_q.write_hist()
 
