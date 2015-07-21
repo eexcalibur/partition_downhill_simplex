@@ -8,7 +8,7 @@ class partition_range(object):
 		self.part_list  = []
 		self.para_num   = len(self.init_range)
 		self.block_num  = config.part_factor ** self.para_num
-		self.m_range = []
+		self.m_range = [0 for i in range(self.para_num)]
 
 	def part_range(self):		
 		for i in range(0, self.para_num):
@@ -31,15 +31,15 @@ class partition_range(object):
 		print "*************************"
 
 	
-	def merge_range(self, part_data, idim):
+	def merge_range(self, part_data, q, idim):
 		if(idim == self.para_num):
 			print self.m_range
+			q.queue.append(block.block(self.m_range))
 			return
 
 		for i in range(0, config.part_factor):
-			self.m_range.append(part_data[idim][i])
+			self.m_range[idim] = part_data[idim][i]
 			self.merge_range(part_data, idim+1)
-			#for j in range(idim, self.para_num):
-			#	del self.m_range[idim]
+
 
 		

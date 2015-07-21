@@ -37,11 +37,8 @@ if __name__ == '__main__':
 	#partition the init range
 	part = partition_range.partition_range()
 	part.part_range()
-	part.merge_range(part.part_list, 0)
+	part.merge_range(part.part_list, task_q, 0)
 
-	#partition_range(task_q, init_range, 1,2)
-
-
-	#task_q.start_tasks()
-	#task_q.write_hist()
+	task_q.start_tasks()
+	task_q.write_hist()
 
