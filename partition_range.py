@@ -34,11 +34,12 @@ class partition_range(object):
 	def merge_range(self, part_data, idim):
 		if(idim == self.para_num):
 			print self.m_range
-		self.m_range = []
+			return
 
 		for i in range(0, config.part_factor):
-			self.m_range.append(part_data[i])
+			self.m_range.append(part_data[idim][i])
 			self.merge_range(part_data, idim+1)
-
+			#for j in range(idim, self.para_num):
+			#	del self.m_range[idim]
 
 		
