@@ -23,13 +23,6 @@ class partition_range(object):
 
 			self.part_list.append(p1_range)
 
-		print self.part_list[0]
-		print self.part_list[1]
-		print self.part_list[2]
-		print self.part_list[3]
-		print self.part_list[4]
-		print "*************************"
-
 	
 	def merge_range(self, part_data, q, idim):
 		if(idim == self.para_num):
