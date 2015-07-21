@@ -1,4 +1,5 @@
 import numpy
+import block
 import uq_calibration.config as config 
 
 class partition_range(object):
