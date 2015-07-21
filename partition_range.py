@@ -27,7 +27,6 @@ class partition_range(object):
 	
 	def merge_range(self, part_data, q, idim):
 		if(idim == self.para_num):
-			print self.m_range
 			q.queue.append(block.block(self.m_range))
 			return
 
