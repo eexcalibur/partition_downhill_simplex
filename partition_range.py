@@ -32,7 +32,7 @@ class partition_range(object):
 
 		for i in range(0, config.part_factor):
 			self.m_range[idim] = part_data[idim][i]
-			self.merge_range(part_data, idim+1)
+			self.merge_range(part_data, q,idim+1)
 
 
 		
