@@ -50,7 +50,7 @@ class task_queue(object):
 	def write_hist(self):
 		fp_fithist = file("fit_hist.txt", "wa")
 		for b in self.queue:
-			numpy.savetxt(fp_fithist, numpy.transpose([[b.id], [b.final_optimal]]))
+			numpy.savetxt(fp_fithist, numpy.transpose([[b.id], [b.final_optimal], [b.iteration_nums]]))
 		fp_fithist.close();
 
 	
